@@ -348,31 +348,24 @@
       }
     },
     "enums": {
-      "H____": {
-        "alignment": 228,
-        "members": {},
-        "type": "unknown"
-      },
-      "P_____": {
-        "alignment": 255,
+      "EntityDormancyType_t": {
+        "alignment": 4,
         "members": {
-          "": -3656606323903938812,
-          "\b": 5170095163510358016,
-          "�": 0
+          "ENTITY_DORMANT": 1,
+          "ENTITY_NOT_DORMANT": 0,
+          "ENTITY_SUSPENDED": 2
         },
-        "type": "unknown"
+        "type": "uint32"
       },
-      "RenderGameSystem": {
-        "alignment": 149,
-        "members": {},
-        "type": "unknown"
-      },
-      "__": {
-        "alignment": 128,
+      "EntityIOTargetType_t": {
+        "alignment": 4,
         "members": {
-          "": 0
+          "ENTITY_IO_TARGET_EHANDLE": 6,
+          "ENTITY_IO_TARGET_ENTITYNAME": 2,
+          "ENTITY_IO_TARGET_ENTITYNAME_OR_CLASSNAME": 7,
+          "ENTITY_IO_TARGET_INVALID": -1
         },
-        "type": "unknown"
+        "type": "uint32"
       }
     }
   }
