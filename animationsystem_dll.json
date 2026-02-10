@@ -545,9 +545,9 @@
       },
       "CPulseCell_Timeline": {
         "fields": {
+          "": 72,
           "m_OnCanceled": 176,
           "m_OnFinished": 104,
-          "m_TimelineEvents": 72,
           "m_bWaitForChildOutflows": 96
         },
         "metadata": [

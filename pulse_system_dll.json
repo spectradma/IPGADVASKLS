@@ -1168,8 +1168,8 @@
       },
       "CPulse_InvokeBinding": {
         "fields": {
+          "": 0,
           "m_FuncName": 48,
-          "m_RegisterMap": 0,
           "m_nCellIndex": 64,
           "m_nSrcChunk": 68,
           "m_nSrcInstruction": 72

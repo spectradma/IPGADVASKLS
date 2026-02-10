@@ -6,11 +6,6 @@
         "metadata": [],
         "parent": null
       },
-      "CParticleBindingRealPulse": {
-        "fields": {},
-        "metadata": [],
-        "parent": null
-      },
       "CPulseArraylib": {
         "fields": {},
         "metadata": [
@@ -1243,8 +1238,7 @@
       "ParticleHitboxDataSelection_t": {
         "alignment": 4,
         "members": {
-          "PARTICLE_HITBOX_AVERAGE_SPEED": 0,
-          "PARTICLE_HITBOX_COUNT": 1
+          "": -8410241183347700619
         },
         "type": "uint32"
       },
@@ -1319,9 +1313,9 @@
       "ParticleLiquidContents_t": {
         "alignment": 4,
         "members": {
-          "PARTICLE_LIQUID_NONE": 0,
-          "PARTICLE_LIQUID_OIL": 1,
-          "PARTICLE_LIQUID_WATER": 2
+          "PD�\u0017��B��i�A<(H�G����\u0001���\\a�W3)rb\u001f��Q�F�F��.��(F\b�2h\u001f����Tm-(�]r�l�&`������9�K��=� \u0011���w���1\u0012�\u0002����ƙ��g": 1,
+          "䒃ہ�\u0003�": 2,
+          "��\\a�W3)rb\u001f��Q�F�F��.��(F\b�2h\u001f����Tm-(�]r�l�&`������9�K��=� \u0011���w���1\u0012�\u0002����ƙ��g": 0
         },
         "type": "uint32"
       },
@@ -1389,9 +1383,9 @@
       "ParticleParentSetMode_t": {
         "alignment": 4,
         "members": {
+          "": 2,
           "PARTICLE_SET_PARENT_IMMEDIATE": 1,
-          "PARTICLE_SET_PARENT_NO": 0,
-          "PARTICLE_SET_PARENT_ROOT": 2
+          "PARTICLE_SET_PARENT_NO": 0
         },
         "type": "uint32"
       },
@@ -1475,8 +1469,8 @@
       "ParticleSortingChoiceList_t": {
         "alignment": 4,
         "members": {
-          "PARTICLE_SORTING_CREATION_TIME": 1,
-          "PARTICLE_SORTING_NEAREST": 0
+          "PARTICLE_SORTING_NEAREST": 0,
+          "��{": 1
         },
         "type": "uint32"
       },
@@ -1587,8 +1581,7 @@
       "SnapshotIndexType_t": {
         "alignment": 4,
         "members": {
-          "SNAPSHOT_INDEX_DIRECT": 1,
-          "SNAPSHOT_INDEX_INCREMENT": 0
+          "": 1080863919302326601
         },
         "type": "uint32"
       },
@@ -1623,39 +1616,39 @@
       "SpriteCardTextureChannel_t": {
         "alignment": 4,
         "members": {
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_A": 2,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_A_RGBALPHA": 7,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_B": 11,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA": 14,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_G": 10,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA": 13,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_R": 9,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RALPHA": 12,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGB": 0,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA": 1,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA_RGBALPHA": 6,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A": 3,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_ALPHAMASK": 4,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A_RGBALPHA": 8,
-          "SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_RGBMASK": 5
+          "\u001b`5DJ��W��B��*�}<n#|���\f�R�\u000b\u0004��@}F\u001c�z9�$�.<q\u001c\u001a�yU�5\u0006���\u000e�M�j*���6)�fA\bM�mtUh�-i��\u0018+[L�\u001eˋB,��-���I���!��\u0006ڪ �uqD\u001b�D\u0015�eP٘8\b=/��6ދ�Qj��b_�-9��\u000f���w[��G\"j\u0010���\fZ��[�/r\u000f�\u000f�{\\\u0007px\\T�S��\u0005�����W��x�<��Tb\u0013�A\u0013Z���\u0019a328Cf(��Ά\u0019\u000fU7�W\u001dȐq~���A�G��5�ww�7P�\u0007�|^R��.�\u000b�P�5�\bW�p��\u0018�j�����\u000f#�.�\u001ek��]\u0018JB�����ETK\u0002m�>�~�\fS����Y��\u001c�w�\u000f�u\t": 1,
+          "-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 10,
+          "5�\bW�p��\u0018�j�����\u000f#�.�\u001ek��]\u0018JB�����ETK\u0002m�>�~�\fS����Y��\u001c�w�\u000f�u\t": 14,
+          "J����ý��z�\"\u0019���}x3\u0011m�e�����`�Yk!��\u001d�}!�\u0001C�N\b�x{S4�|\u0005-�\u0017�u��\u001b �\u0003#�\u0001���u'��[": 4,
+          "�\u0006c*\"른Y�}F��": 2,
+          "�!\u000e���]\u0007\u0012ȏd\u0018��,�\ň��&���\r\u0015�q�Ρv\rjD��sp��PD�z��~�����\u000f=��d0\u0019eR,b\u0012��\u0006[��p~L����ea��`u_�ه�R\u0019�M���\u0016��)\f!\u0006\u0002�\t�]�AL���_�\u0006+P�8�.\u001cj�\u0005�h�S����'�t�Z8F��\u000bs\u001fv��.\b��S��\u0006\"k?�\u0015\u001e\u0007!H\\@�\u001a��\u0002�0ox��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 7,
+          "�>�~�\fS����Y��\u001c�w�\u000f�u\t": 13,
+          "�M���\u0016��)\f!\u0006\u0002�\t�]�AL���_�\u0006+P�8�.\u001cj�\u0005�h�S����'�t�Z8F��\u000bs\u001fv��.\b��S��\u0006\"k?�\u0015\u001e\u0007!H\\@�\u001a��\u0002�0ox��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 5,
+          "�QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 9,
+          "�Z8F��\u000bs\u001fv��.\b��S��\u0006\"k?�\u0015\u001e\u0007!H\\@�\u001a��\u0002�0ox��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 12,
+          "�x{S4�|\u0005-�\u0017�u��\u001b �\u0003#�\u0001���u'��[": 3,
+          "�z��~�����\u000f=��d0\u0019eR,b\u0012��\u0006[��p~L����ea��`u_�ه�R\u0019�M���\u0016��)\f!\u0006\u0002�\t�]�AL���_�\u0006+P�8�.\u001cj�\u0005�h�S����'�t�Z8F��\u000bs\u001fv��.\b��S��\u0006\"k?�\u0015\u001e\u0007!H\\@�\u001a��\u0002�0ox��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 6,
+          "�îTI�� b��\u001a�m\u0004��\u0005\u0003\"0�": 0,
+          "��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 11,
+          "��ni���I��\u001e\b����)e�v�jr{��ѱ)H�\u0017ˇ���\u0011���n<\u0002r��0�!\u000e���]\u0007\u0012ȏd\u0018��,�\ň��&���\r\u0015�q�Ρv\rjD��sp��PD�z��~�����\u000f=��d0\u0019eR,b\u0012��\u0006[��p~L����ea��`u_�ه�R\u0019�M���\u0016��)\f!\u0006\u0002�\t�]�AL���_�\u0006+P�8�.\u001cj�\u0005�h�S����'�t�Z8F��\u000bs\u001fv��.\b��S��\u0006\"k?�\u0015\u001e\u0007!H\\@�\u001a��\u0002�0ox��X��\n���\u0003�\u001a'\t\u001e�/?G��\u001c�NS\u001a+mb�ls\u0005�\u0017�F��-E:u\u000f��t� cJ�6;��>�_�h��\u0014~��\u0013`�A�|��sdc��QC��{�\u0011�G�D\u000fa[�\u0017�-���.\u001a�T\u001f\u0006�f��\u0015���3PO�{?/�/６P5�n\u001d\u0007������\\0���rDN�p��h": 8
         },
         "type": "uint32"
       },
       "SpriteCardTextureType_t": {
         "alignment": 4,
         "members": {
-          "SPRITECARD_TEXTURE_1D_COLOR_LOOKUP": 2,
-          "SPRITECARD_TEXTURE_ANIMMOTIONVEC": 6,
-          "SPRITECARD_TEXTURE_DEPTH": 10,
-          "SPRITECARD_TEXTURE_DIFFUSE": 0,
-          "SPRITECARD_TEXTURE_ILLUMINATION_GRADIENT": 11,
-          "SPRITECARD_TEXTURE_NORMALMAP": 5,
-          "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_A": 7,
-          "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_B": 8,
-          "SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_C": 9,
-          "SPRITECARD_TEXTURE_UVDISTORTION": 3,
-          "SPRITECARD_TEXTURE_UVDISTORTION_ZOOM": 4,
-          "SPRITECARD_TEXTURE_ZOOM": 1
+          "\u001cb�8�]�xH�zI\u0013}\"P��\u0015K��+��͐�[d�dV�S���B�ɖ\\#�\u0015\u0015�1mԉ�$w������]\u0010��\u001b\b0/g\u0016\u000e�9M�t�;�": 1,
+          "C]��ҷj\u0015�C�U��\bri��C��Q���޻�L�4x֘[Y��\u000f��b�,�.�Ǆ6��~)\u0014Y_ѣp��\\L�m��-P�îTI�� b��\u001a�m\u0004��\u0005\u0003\"0�": 4,
+          "NR���\f�\u001dl\u0017�_��I�Q\u000f\u00060y�N7ѕ \u000f�\u0017Q�C]��ҷj\u0015�C�U��\bri��C��Q���޻�L�4x֘[Y��\u000f��b�,�.�Ǆ6��~)\u0014Y_ѣp��\\L�m��-P�îTI�� b��\u001a�m\u0004��\u0005\u0003\"0�": 5,
+          "W���Sb\\G\u001d\f\u0017\u0010�b��~9߹�\u0005lS�*��Ż\u000e�\u0005������\u0019��e:\u0012\u0007��Hj�U��i�m\u000e2�5;?Q\u0006\u000b؋�CG\\��O6H��9��h5ݬ\u0014\u0007{�a��s�1N\u001e��kB�������\u000b�\rG`'�~o��\u0012�\u0019�\\]��䣇z�m\u000b��xK\u0013���bջI�U�\u0006u�izA���~��M\u0005�%(�뺖y1wY8?�\u001dيk��\u0007́�ܷ�(R�ڶ�;��1<���": 8,
+          "�͐�[d�dV�S���B�ɖ\\#�\u0015\u0015�1mԉ�$w������]\u0010��\u001b\b0/g\u0016\u000e�9M�t�;�": 0,
+          "�": 6,
+          "�\u0007́�ܷ�(R�ڶ�;��1<���": 2,
+          "�0�\\K<ݸ8�!�1������\u001a\u001f��M� ��'��A���\u0018����6��\u0004aw!�K��\u0018S}N�����dI�\u0003�k�\u000b�\u0015�\u0010@Q?\u0013#W���Sb\\G\u001d\f\u0017\u0010�b��~9߹�\u0005lS�*��Ż\u000e�\u0005������\u0019��e:\u0012\u0007��Hj�U��i�m\u000e2�5;?Q\u0006\u000b؋�CG\\��O6H��9��h5ݬ\u0014\u0007{�a��s�1N\u001e��kB�������\u000b�\rG`'�~o��\u0012�\u0019�\\]��䣇z�m\u000b��xK\u0013���bջI�U�\u0006u�izA���~��M\u0005�%(�뺖y1wY8?�\u001dيk��\u0007́�ܷ�(R�ڶ�;��1<���": 10,
+          "�Hj�U��i�m\u000e2�5;?Q\u0006\u000b؋�CG\\��O6H��9��h5ݬ\u0014\u0007{�a��s�1N\u001e��kB�������\u000b�\rG`'�~o��\u0012�\u0019�\\]��䣇z�m\u000b��xK\u0013���bջI�U�\u0006u�izA���~��M\u0005�%(�뺖y1wY8?�\u001dيk��\u0007́�ܷ�(R�ڶ�;��1<���": 7,
+          "��A���\u0018����6��\u0004aw!�K��\u0018S}N�����dI�\u0003�k�\u000b�\u0015�\u0010@Q?\u0013#W���Sb\\G\u001d\f\u0017\u0010�b��~9߹�\u0005lS�*��Ż\u000e�\u0005������\u0019��e:\u0012\u0007��Hj�U��i�m\u000e2�5;?Q\u0006\u000b؋�CG\\��O6H��9��h5ݬ\u0014\u0007{�a��s�1N\u001e��kB�������\u000b�\rG`'�~o��\u0012�\u0019�\\]��䣇z�m\u000b��xK\u0013���bջI�U�\u0006u�izA���~��M\u0005�%(�뺖y1wY8?�\u001dيk��\u0007́�ܷ�(R�ڶ�;��1<���": 9,
+          "��b�,�.�Ǆ6��~)\u0014Y_ѣp��\\L�m��-P�îTI�� b��\u001a�m\u0004��\u0005\u0003\"0�": 3,
+          "��xK\u0013���bջI�U�\u0006u�izA���~��M\u0005�%(�뺖y1wY8?�\u001dيk��\u0007́�ܷ�(R�ڶ�;��1<���": 11
         },
         "type": "uint32"
       },

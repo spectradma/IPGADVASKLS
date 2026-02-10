@@ -658,7 +658,7 @@
       },
       "CBodyComponentPoint": {
         "fields": {
-          "m_sceneNode": 128
+          "": 128
         },
         "metadata": [
           {
@@ -671,7 +671,7 @@
       },
       "CBodyComponentSkeletonInstance": {
         "fields": {
-          "m_skeletonInstance": 128
+          "": 128
         },
         "metadata": [
           {
@@ -1372,8 +1372,8 @@
       },
       "CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t": {
         "fields": {
+          "": 10,
           "pItem": 0,
-          "slot": 10,
           "team": 8
         },
         "metadata": [],
@@ -1381,7 +1381,7 @@
       },
       "CCSPlayerLegacyJump": {
         "fields": {
-          "": 16,
+          "m_bOldJumpPressed": 16,
           "m_flJumpPressedTime": 20
         },
         "metadata": [
@@ -2830,41 +2830,6 @@
         "metadata": [],
         "parent": "C_PointEntity"
       },
-      "CInfoWorldLayer": {
-        "fields": {
-          "m_bCreateAsChildSpawnGroup": 1586,
-          "m_bEntitiesSpawned": 1585,
-          "m_bWorldLayerActuallyVisible": 1592,
-          "m_bWorldLayerVisible": 1584,
-          "m_hLayerSpawnGroup": 1588,
-          "m_layerName": 1576,
-          "m_pOutputOnEntitiesSpawned": 1544,
-          "m_worldName": 1568
-        },
-        "metadata": [
-          {
-            "name": "m_worldName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_layerName",
-            "type": "NetworkVarNames",
-            "type_name": "string_t"
-          },
-          {
-            "name": "m_bWorldLayerVisible",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          },
-          {
-            "name": "m_bEntitiesSpawned",
-            "type": "NetworkVarNames",
-            "type_name": "bool"
-          }
-        ],
-        "parent": "C_BaseEntity"
-      },
       "CLightComponent": {
         "fields": {
           "__m_pChainEntity": 56,
@@ -3070,7 +3035,7 @@
             "type_name": "float"
           },
           {
-            "name": "",
+            "name": "m_flShadowCascadeDistanceFade",
             "type": "NetworkVarNames",
             "type_name": "float"
           },
@@ -3567,11 +3532,6 @@
         "metadata": [],
         "parent": "CPlayerPawnComponent"
       },
-      "CPlayer_ItemServices": {
-        "fields": {},
-        "metadata": [],
-        "parent": "CPlayerPawnComponent"
-      },
       "CPlayer_MovementServices": {
         "fields": {
           "m_arrForceSubtickMoveWhen": 420,
@@ -3741,6 +3701,24 @@
       "CPointTemplateAPI": {
         "fields": {},
         "metadata": [],
+        "parent": null
+      },
+      "CPrecipitationVData": {
+        "fields": {
+          "m_bBatchSameVolumeType": 272,
+          "m_flInnerDistance": 264,
+          "m_nAttachType": 268,
+          "m_nRTEnvCP": 276,
+          "m_nRTEnvCPComponent": 280,
+          "m_szModifier": 288,
+          "m_szParticlePrecipitationEffect": 40
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPropDataComponent": {
@@ -5058,7 +5036,6 @@
       },
       "C_BarnLight": {
         "fields": {
-          "": 3724,
           "m_Color": 3728,
           "m_LightStyleEvents": 3816,
           "m_LightStyleString": 3776,
@@ -5099,6 +5076,7 @@
           "m_nBakedShadowIndex": 3748,
           "m_nBounceLight": 4048,
           "m_nCastShadows": 4032,
+          "m_nColorMode": 3724,
           "m_nDirectLight": 3744,
           "m_nFog": 4080,
           "m_nFogShadows": 4088,
@@ -5263,12 +5241,12 @@
             "type_name": "Vector"
           },
           {
-            "name": "m_flRange",
+            "name": "",
             "type": "NetworkVarNames",
             "type_name": "float"
           },
           {
-            "name": "",
+            "name": "m_vShear",
             "type": "NetworkVarNames",
             "type_name": "Vector"
           },
@@ -5540,6 +5518,87 @@
         ],
         "parent": "C_BaseToggle"
       },
+      "C_BaseCSGrenade": {
+        "fields": {
+          "m_bClientPredictDelete": 8000,
+          "m_bIsHeldByPlayer": 8002,
+          "m_bJumpThrow": 8004,
+          "m_bJustPulledPin": 8144,
+          "m_bPinPulled": 8003,
+          "m_bRedraw": 8001,
+          "m_bThrowAnimating": 8005,
+          "m_fDropTime": 8136,
+          "m_fPinPullTime": 8140,
+          "m_fThrowTime": 8008,
+          "m_flNextHoldFrac": 8152,
+          "m_flThrowStrength": 8016,
+          "m_hSwitchToWeaponAfterThrow": 8156,
+          "m_nNextHoldTick": 8148
+        },
+        "metadata": [
+          {
+            "name": "m_bRedraw",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bIsHeldByPlayer",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bPinPulled",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bJumpThrow",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bThrowAnimating",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_fThrowTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_fDropTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_fPinPullTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_bJustPulledPin",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_nNextHoldTick",
+            "type": "NetworkVarNames",
+            "type_name": "GameTick_t"
+          },
+          {
+            "name": "m_flNextHoldFrac",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_hSwitchToWeaponAfterThrow",
+            "type": "NetworkVarNames",
+            "type_name": "CHandle<CCSWeaponBase>"
+          }
+        ],
+        "parent": "C_CSWeaponBase"
+      },
       "C_BaseCSGrenadeProjectile": {
         "fields": {
           "flNextTrailLineTime": 5096,
@@ -5661,6 +5720,7 @@
       },
       "C_BaseEntity": {
         "fields": {
+          "": 1024,
           "m_CBodyComponent": 56,
           "m_DataChangeEventRef": 1468,
           "m_EntClientFlags": 1008,
@@ -5689,7 +5749,6 @@
           "m_dependencies": 1472,
           "m_fBBoxVisFlags": 1384,
           "m_fEffects": 1332,
-          "m_fFlags": 1024,
           "m_flActualGravityScale": 1388,
           "m_flAnimTime": 956,
           "m_flCreateTime": 1000,
@@ -5723,7 +5782,6 @@
           "m_nInterpolationLatchDirtyFlags": 968,
           "m_nLastPredictableCommand": 1400,
           "m_nLastThinkTick": 816,
-          "m_nNextThinkTick": 1016,
           "m_nNoInterpolationTick": 880,
           "m_nPlatformType": 872,
           "m_nSceneObjectOverrideFlags": 964,
@@ -6102,7 +6160,6 @@
       },
       "C_BaseModelEntity": {
         "fields": {
-          "": 3080,
           "m_CHitboxComponent": 2808,
           "m_CRenderComponent": 2800,
           "m_ClientOverrideTint": 3648,
@@ -6113,6 +6170,7 @@
           "m_bInitModelEffects": 2904,
           "m_bIsStaticProp": 2906,
           "m_bNoInterpolate": 3081,
+          "m_bRenderToCubemaps": 3080,
           "m_bUseClientOverrideTint": 3652,
           "m_bvDisabledHitGroups": 3712,
           "m_clrRender": 2944,
@@ -6749,6 +6807,7 @@
       },
       "C_BreakableProp": {
         "fields": {
+          "": 4756,
           "m_BreakableContentsType": 4720,
           "m_CPropDataComponent": 4512,
           "m_OnBreak": 4600,
@@ -6774,7 +6833,6 @@
           "m_hPhysicsAttacker": 4800,
           "m_iMinHealthDmg": 4684,
           "m_impactEnergyScale": 4680,
-          "m_nExplosionType": 4756,
           "m_strBreakableContentsParticleOverride": 4736,
           "m_strBreakableContentsPropGroupOverride": 4728,
           "m_vDefBurstOffset": 4696
@@ -8019,7 +8077,7 @@
             "type_name": "loadout_slot_t"
           },
           {
-            "name": "",
+            "name": "m_EconGloves",
             "type": "NetworkVarNames",
             "type_name": "CEconItemView"
           },
@@ -8198,7 +8256,7 @@
             "type_name": "int32"
           },
           {
-            "name": "m_unCurrentEquipmentValue",
+            "name": "",
             "type": "NetworkVarNames",
             "type_name": "uint16"
           },
@@ -8457,6 +8515,214 @@
           }
         ],
         "parent": "C_Team"
+      },
+      "C_CSWeaponBase": {
+        "fields": {
+          "m_IronSightController": 7248,
+          "m_OnPlayerPickup": 6544,
+          "m_bBurstMode": 6612,
+          "m_bClearWeaponIdentifyingUGC": 6816,
+          "m_bDroppedNearBuyZone": 6656,
+          "m_bFireOnEmpty": 6540,
+          "m_bInReload": 6628,
+          "m_bInspectPending": 6484,
+          "m_bInspectShouldLoop": 6485,
+          "m_bIsHauledBack": 6636,
+          "m_bSilencerOn": 6637,
+          "m_bUIWeapon": 6818,
+          "m_bVisualsDataSet": 6817,
+          "m_bWasActiveWeaponWhenDropped": 6844,
+          "m_bWasOwnedByCT": 6884,
+          "m_bWasOwnedByTerrorist": 6885,
+          "m_donated": 6876,
+          "m_fAccuracyPenalty": 6592,
+          "m_fAccuracySmoothedForZoom": 6600,
+          "m_fLastShotTime": 6880,
+          "m_flCrosshairDistance": 6528,
+          "m_flDroppedAtTime": 6632,
+          "m_flInspectCancelCompleteTime": 6480,
+          "m_flLastAccuracyUpdateTime": 6596,
+          "m_flLastBurstModeChangeTime": 6616,
+          "m_flLastLOSTraceFailureTime": 7448,
+          "m_flLastShakeTime": 7564,
+          "m_flNextAttackRenderTimeOffset": 6660,
+          "m_flNextClientFireBulletTime": 6888,
+          "m_flNextClientFireBulletTime_Repredict": 6892,
+          "m_flPostponeFireReadyFrac": 6624,
+          "m_flRecoilIndex": 6608,
+          "m_flTimeSilencerSwitchComplete": 6640,
+          "m_flTurningInaccuracy": 6588,
+          "m_flTurningInaccuracyDelta": 6572,
+          "m_flWatTickOffset": 7544,
+          "m_flWeaponActionPlaybackRate": 6644,
+          "m_flWeaponGameplayAnimStateTimestamp": 6476,
+          "m_hPrevOwner": 6836,
+          "m_iAmmoLastCheck": 6532,
+          "m_iIronSightMode": 7424,
+          "m_iMostRecentTeamNumber": 6652,
+          "m_iOriginalTeamNumber": 6648,
+          "m_iRecoilIndex": 6604,
+          "m_iWeaponGameplayAnimState": 6472,
+          "m_nCustomEconReloadEventId": 6820,
+          "m_nDropTick": 6840,
+          "m_nLastEmptySoundCmdNum": 6536,
+          "m_nPostponeFireReadyTicks": 6620,
+          "m_nextPrevOwnerUseTime": 6832,
+          "m_vecTurningInaccuracyEyeDirLast": 6576,
+          "m_weaponMode": 6568
+        },
+        "metadata": [
+          {
+            "name": "MNetworkOutOfPVSUpdates",
+            "type": "Unknown"
+          },
+          {
+            "name": "m_iWeaponGameplayAnimState",
+            "type": "NetworkVarNames",
+            "type_name": "WeaponGameplayAnimState"
+          },
+          {
+            "name": "m_flWeaponGameplayAnimStateTimestamp",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_flInspectCancelCompleteTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_bInspectPending",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bInspectShouldLoop",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_weaponMode",
+            "type": "NetworkVarNames",
+            "type_name": "CSWeaponMode"
+          },
+          {
+            "name": "m_fAccuracyPenalty",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_iRecoilIndex",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_flRecoilIndex",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_bBurstMode",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_nPostponeFireReadyTicks",
+            "type": "NetworkVarNames",
+            "type_name": "GameTick_t"
+          },
+          {
+            "name": "m_flPostponeFireReadyFrac",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_bInReload",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_flDroppedAtTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_bIsHauledBack",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bSilencerOn",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_flTimeSilencerSwitchComplete",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_flWeaponActionPlaybackRate",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_iOriginalTeamNumber",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_iMostRecentTeamNumber",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_bDroppedNearBuyZone",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_nextPrevOwnerUseTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_hPrevOwner",
+            "type": "NetworkVarNames",
+            "type_name": "CHandle<CCSPlayerPawn>"
+          },
+          {
+            "name": "m_nDropTick",
+            "type": "NetworkVarNames",
+            "type_name": "GameTick_t"
+          },
+          {
+            "name": "m_bWasActiveWeaponWhenDropped",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_fLastShotTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          },
+          {
+            "name": "m_iIronSightMode",
+            "type": "NetworkVarNames",
+            "type_name": "int"
+          },
+          {
+            "name": "m_flWatTickOffset",
+            "type": "NetworkVarNames",
+            "type_name": "float"
+          },
+          {
+            "name": "m_flLastShakeTime",
+            "type": "NetworkVarNames",
+            "type_name": "GameTime_t"
+          }
+        ],
+        "parent": "C_BasePlayerWeapon"
       },
       "C_CSWeaponBaseGun": {
         "fields": {
@@ -10776,13 +11042,6 @@
         "metadata": [],
         "parent": "C_BaseEntity"
       },
-      "C_GlobalLight": {
-        "fields": {
-          "m_WindClothForceHandle": 2768
-        },
-        "metadata": [],
-        "parent": "C_BaseEntity"
-      },
       "C_GradientFog": {
         "fields": {
           "m_bGradientFogNeedsTextures": 1602,
@@ -10884,7 +11143,7 @@
       "C_HEGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": ""
+        "parent": "C_BaseCSGrenade"
       },
       "C_HEGrenadeProjectile": {
         "fields": {},
@@ -11682,6 +11941,39 @@
           "m_vecDamagePosition": 4824
         },
         "metadata": [],
+        "parent": "C_BreakableProp"
+      },
+      "C_PhysicsProp": {
+        "fields": {
+          "m_bAwake": 4816
+        },
+        "metadata": [
+          {
+            "name": "MNetworkExcludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkExcludeByUserGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkExcludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkExcludeByUserGroup",
+            "type": "Unknown"
+          },
+          {
+            "name": "MNetworkIncludeByName",
+            "type": "Unknown"
+          },
+          {
+            "name": "m_bAwake",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          }
+        ],
         "parent": "C_BreakableProp"
       },
       "C_PhysicsPropMultiplayer": {
@@ -13193,7 +13485,7 @@
       "C_SmokeGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": ""
+        "parent": "C_BaseCSGrenade"
       },
       "C_SmokeGrenadeProjectile": {
         "fields": {
