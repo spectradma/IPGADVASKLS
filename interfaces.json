@@ -117,6 +117,10 @@
   "resourcesystem.dll": {
     "ResourceSystem013": 532448
   },
+  "scenefilecache.dll": {
+    "ResponseRulesCache001": 897424,
+    "SceneFileCache002": 897728
+  },
   "scenesystem.dll": {
     "RenderingPipelines_001": 6666960,
     "SceneSystem_002": 9240288,

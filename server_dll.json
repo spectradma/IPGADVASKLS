@@ -2307,24 +2307,10 @@
           "m_SoundOpen": 3328,
           "m_SoundPound": 3368,
           "m_SoundUnlock": 3352,
-          "m_bFirstBlocked": 3244,
-          "m_bForceClosed": 3280,
-          "m_bLocked": 3212,
-          "m_bNeedsHardware": 3204,
-          "m_bNoNPCs": 3213,
-          "m_closedAngles": 3228,
-          "m_closedPosition": 3216,
-          "m_eDoorState": 3208,
-          "m_flAutoReturnDelay": 3168,
           "m_hActivator": 3296,
-          "m_hBlocker": 3240,
-          "m_hDoorList": 3176,
           "m_hMaster": 3408,
-          "m_ls": 3248,
-          "m_nHardwareType": 3200,
           "m_nPhysicsMaterial": 3396,
-          "m_numCloseAttempts": 3392,
-          "m_vecLatchWorldPosition": 3284
+          "m_numCloseAttempts": 3392
         },
         "metadata": [
           {
@@ -2703,18 +2689,13 @@
       },
       "CBreakable": {
         "fields": {
-          "m_CPropDataComponent": 1848,
+          "": 2008,
+          "%0��\u0005": 2040,
+          "%�'<\b": 1916,
+          "%�H�\u0007": 2048,
+          "%�|�\u0006": 2044,
           "m_Explosion": 1920,
           "m_Material": 1912,
-          "m_OnBreak": 1984,
-          "m_OnHealthChanged": 2008,
-          "m_OnStartDeath": 1960,
-          "m_PerformanceMode": 2040,
-          "m_flLastPhysicsInfluenceTime": 2048,
-          "m_flPressureDelay": 1936,
-          "m_hBreaker": 1916,
-          "m_hPhysicsAttacker": 2044,
-          "m_iMinHealthDmg": 1940,
           "m_impactEnergyScale": 1952,
           "m_iszPropData": 1944,
           "m_iszSpawnObject": 1928,
@@ -2722,9 +2703,9 @@
         },
         "metadata": [
           {
-            "name": "m_CPropDataComponent",
+            "name": "",
             "type": "NetworkVarNames",
-            "type_name": "CPropDataComponent::Storage_t"
+            "type_name": ""
           }
         ],
         "parent": "CBaseModelEntity"
@@ -7179,6 +7160,7 @@
       },
       "CEntityIdentity": {
         "fields": {
+          "": 88,
           "m_PathIndex": 64,
           "m_designerName": 32,
           "m_fDataObjectTypes": 60,
@@ -7186,7 +7168,6 @@
           "m_name": 24,
           "m_nameStringableIndex": 20,
           "m_pAttributes": 72,
-          "m_pNext": 88,
           "m_pNextByClass": 104,
           "m_pPrev": 80,
           "m_pPrevByClass": 96,
@@ -8193,11 +8174,6 @@
         "fields": {},
         "metadata": [],
         "parent": "CEnvSoundscapeProxy"
-      },
-      "CEnvSoundscapeTriggerable": {
-        "fields": {},
-        "metadata": [],
-        "parent": "CEnvSoundscape"
       },
       "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable": {
         "fields": {},
@@ -10452,11 +10428,6 @@
         "metadata": [],
         "parent": "CBaseEntity"
       },
-      "CInfoLandmark": {
-        "fields": {},
-        "metadata": [],
-        "parent": "CPointEntity"
-      },
       "CInfoOffscreenPanoramaTexture": {
         "fields": {
           "m_AdditionalTargetEntities": 1296,
@@ -11223,11 +11194,6 @@
           }
         ],
         "parent": "CEntityComponent"
-      },
-      "CLightDirectionalEntity": {
-        "fields": {},
-        "metadata": [],
-        "parent": "CLightEntity"
       },
       "CLightEntity": {
         "fields": {
@@ -12148,9 +12114,9 @@
       },
       "CPathCorner": {
         "fields": {
+          "": 1192,
           "m_OnPass": 1200,
-          "m_flRadius": 1196,
-          "m_flWait": 1192
+          "m_flRadius": 1196
         },
         "metadata": [],
         "parent": "CPointEntity"
@@ -17880,7 +17846,7 @@
       "CWeaponTec9": {
         "fields": {},
         "metadata": [],
-        "parent": "CCSWeaponBaseGun"
+        "parent": ""
       },
       "CWeaponUMP45": {
         "fields": {},
@@ -18755,12 +18721,12 @@
       "AnimationAlgorithm_t": {
         "alignment": 1,
         "members": {
+          "": 0,
           "eAnimGraph1": 4,
           "eAnimGraph2": 2,
           "eAnimGraph2Secondary": 3,
           "eCount": 5,
           "eInvalid": -1,
-          "eNone": 0,
           "eSequence": 1
         },
         "type": "uint8"
@@ -18837,9 +18803,9 @@
       "BodySectionAuthority_t": {
         "alignment": 4,
         "members": {
+          "": 0,
           "eFullBody": 3,
           "eLowerBody": 1,
-          "eNone": 0,
           "eUpperBody": 2
         },
         "type": "uint32"
@@ -19106,9 +19072,9 @@
       "ChoreoLookAtMode_t": {
         "alignment": 4,
         "members": {
+          "": 1,
           "eChest": 0,
           "eEyesOnly": 2,
-          "eHead": 1,
           "eInvalid": -1
         },
         "type": "uint32"
@@ -19220,11 +19186,11 @@
       "DecalFlags_t": {
         "alignment": 4,
         "members": {
+          "": 0,
           "eAll": 4294967295,
           "eAllButCannotClear": 4294967294,
           "eCannotClear": 1,
-          "eDecalProjectToBackfaces": 2,
-          "eNone": 0
+          "eDecalProjectToBackfaces": 2
         },
         "type": "uint32"
       },
@@ -19443,7 +19409,7 @@
       "ExternalAnimGraphInactiveBehavior_t": {
         "alignment": 1,
         "members": {
-          "eNone": 0,
+          "": 0,
           "eUnbind": 1,
           "eUnbindAndDelete": 2
         },
@@ -19594,8 +19560,8 @@
       "HoverPoseFlags_t": {
         "alignment": 1,
         "members": {
+          "": 0,
           "eAngles": 2,
-          "eNone": 0,
           "ePosition": 1
         },
         "type": "uint8"
@@ -19856,10 +19822,10 @@
       "NavScopeFlags_t": {
         "alignment": 1,
         "members": {
+          "": 0,
           "eAir": 2,
           "eAll": 3,
-          "eGround": 1,
-          "eNone": 0
+          "eGround": 1
         },
         "type": "uint8"
       },
@@ -19905,14 +19871,6 @@
         },
         "type": "uint8"
       },
-      "PerformanceMode_t": {
-        "alignment": 4,
-        "members": {
-          "PM_NORMAL": 0,
-          "PM_NO_GIBS": 1
-        },
-        "type": "uint32"
-      },
       "PlayerConnectedState": {
         "alignment": 4,
         "members": {
@@ -19923,25 +19881,6 @@
           "PlayerNeverConnected": -1,
           "PlayerReconnecting": 2,
           "PlayerReserved": 5
-        },
-        "type": "uint32"
-      },
-      "PointOrientConstraint_t": {
-        "alignment": 4,
-        "members": {
-          "eNone": 0,
-          "ePreserveUpAxis": 1
-        },
-        "type": "uint32"
-      },
-      "PointOrientGoalDirectionType_t": {
-        "alignment": 4,
-        "members": {
-          "eAbsOrigin": 0,
-          "eCenter": 1,
-          "eEyesForward": 4,
-          "eForward": 3,
-          "eHead": 2
         },
         "type": "uint32"
       },
@@ -20619,6 +20558,13 @@
           "WORLDTEXT_VERTICAL_ALIGN_BOTTOM": 2,
           "WORLDTEXT_VERTICAL_ALIGN_CENTER": 1,
           "WORLDTEXT_VERTICAL_ALIGN_TOP": 0
+        },
+        "type": "uint32"
+      },
+      "_": {
+        "alignment": 4,
+        "members": {
+          "": 7318
         },
         "type": "uint32"
       },
