@@ -658,7 +658,7 @@
       },
       "CBodyComponentPoint": {
         "fields": {
-          "": 128
+          "m_sceneNode": 128
         },
         "metadata": [
           {
@@ -671,7 +671,7 @@
       },
       "CBodyComponentSkeletonInstance": {
         "fields": {
-          "": 128
+          "m_skeletonInstance": 128
         },
         "metadata": [
           {
@@ -1372,8 +1372,8 @@
       },
       "CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t": {
         "fields": {
-          "": 10,
           "pItem": 0,
+          "slot": 10,
           "team": 8
         },
         "metadata": [],
@@ -2687,6 +2687,13 @@
         "metadata": [],
         "parent": "C_BaseModelEntity"
       },
+      "CHitboxComponent": {
+        "fields": {
+          "m_flBoundsExpandRadius": 20
+        },
+        "metadata": [],
+        "parent": "CEntityComponent"
+      },
       "CHostageRescueZone": {
         "fields": {},
         "metadata": [],
@@ -2829,6 +2836,41 @@
         "fields": {},
         "metadata": [],
         "parent": "C_PointEntity"
+      },
+      "CInfoWorldLayer": {
+        "fields": {
+          "m_bCreateAsChildSpawnGroup": 1586,
+          "m_bEntitiesSpawned": 1585,
+          "m_bWorldLayerActuallyVisible": 1592,
+          "m_bWorldLayerVisible": 1584,
+          "m_hLayerSpawnGroup": 1588,
+          "m_layerName": 1576,
+          "m_pOutputOnEntitiesSpawned": 1544,
+          "m_worldName": 1568
+        },
+        "metadata": [
+          {
+            "name": "m_worldName",
+            "type": "NetworkVarNames",
+            "type_name": "string_t"
+          },
+          {
+            "name": "m_layerName",
+            "type": "NetworkVarNames",
+            "type_name": "string_t"
+          },
+          {
+            "name": "m_bWorldLayerVisible",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          },
+          {
+            "name": "m_bEntitiesSpawned",
+            "type": "NetworkVarNames",
+            "type_name": "bool"
+          }
+        ],
+        "parent": "C_BaseEntity"
       },
       "CLightComponent": {
         "fields": {
@@ -3532,6 +3574,11 @@
         "metadata": [],
         "parent": "CPlayerPawnComponent"
       },
+      "CPlayer_ItemServices": {
+        "fields": {},
+        "metadata": [],
+        "parent": "CPlayerPawnComponent"
+      },
       "CPlayer_MovementServices": {
         "fields": {
           "m_arrForceSubtickMoveWhen": 420,
@@ -3911,7 +3958,7 @@
       },
       "CPulseCell_Inflow_BaseEntrypoint": {
         "fields": {
-          "": 72,
+          "m_EntryChunk": 72,
           "m_RegisterMap": 80
         },
         "metadata": [
@@ -5241,7 +5288,7 @@
             "type_name": "Vector"
           },
           {
-            "name": "",
+            "name": "m_flRange",
             "type": "NetworkVarNames",
             "type_name": "float"
           },
@@ -5720,7 +5767,6 @@
       },
       "C_BaseEntity": {
         "fields": {
-          "": 1024,
           "m_CBodyComponent": 56,
           "m_DataChangeEventRef": 1468,
           "m_EntClientFlags": 1008,
@@ -5749,6 +5795,7 @@
           "m_dependencies": 1472,
           "m_fBBoxVisFlags": 1384,
           "m_fEffects": 1332,
+          "m_fFlags": 1024,
           "m_flActualGravityScale": 1388,
           "m_flAnimTime": 956,
           "m_flCreateTime": 1000,
@@ -5782,6 +5829,7 @@
           "m_nInterpolationLatchDirtyFlags": 968,
           "m_nLastPredictableCommand": 1400,
           "m_nLastThinkTick": 816,
+          "m_nNextThinkTick": 1016,
           "m_nNoInterpolationTick": 880,
           "m_nPlatformType": 872,
           "m_nSceneObjectOverrideFlags": 964,
@@ -6807,7 +6855,6 @@
       },
       "C_BreakableProp": {
         "fields": {
-          "": 4756,
           "m_BreakableContentsType": 4720,
           "m_CPropDataComponent": 4512,
           "m_OnBreak": 4600,
@@ -6833,6 +6880,7 @@
           "m_hPhysicsAttacker": 4800,
           "m_iMinHealthDmg": 4684,
           "m_impactEnergyScale": 4680,
+          "m_nExplosionType": 4756,
           "m_strBreakableContentsParticleOverride": 4736,
           "m_strBreakableContentsPropGroupOverride": 4728,
           "m_vDefBurstOffset": 4696
@@ -8256,7 +8304,7 @@
             "type_name": "int32"
           },
           {
-            "name": "",
+            "name": "m_unCurrentEquipmentValue",
             "type": "NetworkVarNames",
             "type_name": "uint16"
           },
@@ -10298,7 +10346,6 @@
       },
       "C_EnvVolumetricFogVolume": {
         "fields": {
-          "": 1604,
           "m_TintColor": 1608,
           "m_bActive": 1544,
           "m_bIndirectUseLPVs": 1573,
@@ -10309,6 +10356,7 @@
           "m_bStartDisabled": 1572,
           "m_fHeightFogEdgeWidth": 1592,
           "m_fIndirectLightStrength": 1596,
+          "m_fNoiseStrength": 1604,
           "m_fSunLightStrength": 1600,
           "m_flFalloffExponent": 1584,
           "m_flHeightFogDepth": 1588,
@@ -11039,6 +11087,13 @@
       },
       "C_GameRulesProxy": {
         "fields": {},
+        "metadata": [],
+        "parent": "C_BaseEntity"
+      },
+      "C_GlobalLight": {
+        "fields": {
+          "m_WindClothForceHandle": 2768
+        },
         "metadata": [],
         "parent": "C_BaseEntity"
       },
