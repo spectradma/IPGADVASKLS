@@ -6,29 +6,49 @@
           "m_nExample1": 0,
           "m_nExample2": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CExampleSchemaVData_PolymorphicBase": {
         "fields": {
           "m_nBase": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CExampleSchemaVData_PolymorphicDerivedA": {
         "fields": {
           "m_nDerivedA": 16
         },
-        "metadata": [],
-        "parent": "resourcefile"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CExampleSchemaVData_PolymorphicDerivedB": {
         "fields": {
           "m_nDerivedB": 16
         },
-        "metadata": [],
-        "parent": "resourcefile"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CSchemaSystemInternalRegistration": {
         "fields": {
@@ -61,7 +81,12 @@
       },
       "InfoForResourceTypeCResourceManifestInternal": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MResourceTypeForInfoType",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ResourceId_t": {

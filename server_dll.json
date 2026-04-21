@@ -8,7 +8,12 @@
           "e_action_desired": 8,
           "e_movement_type_desired": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_BaseNPC_DebugSnapshotData_t": {
@@ -24,7 +29,12 @@
           "s_schedule_fail_reason": 48,
           "s_schedule_interrupt_reason": 40
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_DefaultNPC_DebugSnapshotData_t": {
@@ -38,7 +48,12 @@
           "s_npc_tactic_phase": 24,
           "tactic_interrupt_conditions": 32
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_DefaultNPC_DebugSnapshotData_t__PathQuery_t": {
@@ -49,7 +64,16 @@
           "m_sCurrentQueryName": 8,
           "m_sInitialQueryName": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MDebugSnapshotDataSummaryFn",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_MotorGroundAnimgraph_DebugSnapshotData_t": {
@@ -65,7 +89,12 @@
           "state": 8,
           "vec_events": 56
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_MotorGroundAnimgraph_DebugSnapshotData_t__Event_t": {
@@ -73,7 +102,12 @@
           "description": 0,
           "location": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_Motor_DebugSnapshotData_t": {
@@ -82,7 +116,12 @@
           "current_movement_gait_set": 8,
           "movement_setting_id": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_Navigator_DebugSnapshotData_t": {
@@ -94,7 +133,12 @@
           "s_npc_nav_authority": 8,
           "waypoints": 56
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AI_Navigator_DebugSnapshotData_t__Waypoint_t": {
@@ -103,7 +147,12 @@
           "nav_type": 12,
           "position": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ActiveModelConfig_t": {
@@ -131,7 +180,12 @@
           "m_nMaxCarry": 16,
           "m_nSplashSize": 28
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "AnimGraph2SerializedPoseRecipeSlot_t": {
@@ -157,7 +211,7 @@
           "m_strSearchName": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CAI_Expresser": {
         "fields": {
@@ -184,7 +238,7 @@
       "CAK47": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CAmbientGeneric": {
         "fields": {
@@ -200,7 +254,7 @@
           "m_sSourceEntName": 1320
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CAnimEventListener": {
         "fields": {},
@@ -221,7 +275,12 @@
         "fields": {
           "m_hExternalGraph": 16
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CAnimGraphControllerManager": {
@@ -237,7 +296,7 @@
           "m_Item": 80
         },
         "metadata": [],
-        "parent": null
+        "parent": "CAttributeManager"
       },
       "CAttributeList": {
         "fields": {
@@ -348,13 +407,8 @@
           "m_vShear": 2212,
           "m_vSizeParams": 2196
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseModelEntity"
       },
       "CBaseAnimGraph": {
         "fields": {
@@ -373,7 +427,7 @@
           "m_xParentedRagdollRootInEntitySpace": 2192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CBaseAnimGraphController": {
         "fields": {
@@ -410,16 +464,26 @@
           "m_vecSecondarySkeletons": 56
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSkeletonAnimationController"
       },
       "CBaseAnimGraphDestructibleParts_GraphController": {
         "fields": {},
-        "metadata": [],
-        "parent": "Base entity with model"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CBaseAnimGraphVariationUserData": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CBaseButton": {
@@ -451,7 +515,7 @@
           "m_usable": 2268
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseToggle"
       },
       "CBaseCSGrenade": {
         "fields": {
@@ -470,7 +534,7 @@
           "m_nNextHoldTick": 4172
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CBaseCSGrenadeProjectile": {
         "fields": {
@@ -492,7 +556,7 @@
           "m_vecOriginalSpawnLocation": 2560
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseGrenade"
       },
       "CBaseClientUIEntity": {
         "fields": {
@@ -512,7 +576,7 @@
           "m_bEnabled": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CBaseCombatCharacter": {
         "fields": {
@@ -528,14 +592,14 @@
           "m_strRelationships": 2480
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseAnimGraph"
       },
       "CBaseDMStart": {
         "fields": {
           "m_Master": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CBaseDoor": {
         "fields": {
@@ -569,7 +633,7 @@
           "m_vecMoveDirParentSpace": 2052
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseToggle"
       },
       "CBaseEntity": {
         "fields": {
@@ -661,7 +725,7 @@
           "m_vecVelocity": 920
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": null
       },
       "CBaseEntityAPI": {
         "fields": {},
@@ -675,7 +739,7 @@
           "m_bNegated": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CBaseGrenade": {
         "fields": {
@@ -695,7 +759,7 @@
           "m_iszBounceSound": 2448
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CBaseIssue": {
         "fields": {
@@ -753,7 +817,7 @@
           "m_vecViewOffset": 1840
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseEntity"
       },
       "CBaseModelEntityAPI": {
         "fields": {},
@@ -767,7 +831,12 @@
           "nHitGroup": 0,
           "nPrevDamageLevel": 12
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CBaseMoveBehavior": {
@@ -785,7 +854,7 @@
           "m_pTargetKeyFrame": 1288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPathKeyFrame"
       },
       "CBasePlatTrain": {
         "fields": {
@@ -796,7 +865,7 @@
           "m_volume": 2048
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseToggle"
       },
       "CBasePlayerController": {
         "fields": {
@@ -826,7 +895,7 @@
           "m_szNetworkIDString": 1424
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CBasePlayerControllerAPI": {
         "fields": {},
@@ -862,7 +931,7 @@
           "v_anglePrevious": 2756
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCombatCharacter"
       },
       "CBasePlayerVData": {
         "fields": {
@@ -882,7 +951,12 @@
           "m_sModelName": 40,
           "m_sModelNameAg2Override": 264
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CBasePlayerWeapon": {
@@ -897,7 +971,7 @@
           "m_pReserveAmmo": 3208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEconEntity"
       },
       "CBasePlayerWeaponVData": {
         "fields": {
@@ -934,7 +1008,12 @@
           "m_szWorldModel": 40,
           "m_szWorldModelAg2Override": 264
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CBaseProp": {
@@ -945,7 +1024,7 @@
           "m_mPreferredCatchTransform": 2384
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CBasePropDoor": {
         "fields": {
@@ -989,7 +1068,7 @@
           "m_vecLatchWorldPosition": 3076
         },
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CBasePulseGraphInstance": {
         "fields": {},
@@ -1016,7 +1095,7 @@
           "m_vecPosition2": 1928
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CBaseTrigger": {
         "fields": {
@@ -1034,7 +1113,7 @@
           "m_iFilterName": 2216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseToggle"
       },
       "CBaseTriggerAPI": {
         "fields": {},
@@ -1069,7 +1148,7 @@
           "m_vecEndPos": 2036
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CBlood": {
         "fields": {
@@ -1079,7 +1158,7 @@
           "m_vecSprayDir": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CBodyComponent": {
         "fields": {
@@ -1087,33 +1166,33 @@
           "m_pSceneNode": 8
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CBodyComponentBaseAnimGraph": {
         "fields": {
           "m_animationController": 1184
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBodyComponentSkeletonInstance"
       },
       "CBodyComponentBaseModelEntity": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CBodyComponentSkeletonInstance"
       },
       "CBodyComponentPoint": {
         "fields": {
           "m_sceneNode": 128
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBodyComponent"
       },
       "CBodyComponentSkeletonInstance": {
         "fields": {
           "m_skeletonInstance": 128
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBodyComponent"
       },
       "CBombTarget": {
         "fields": {
@@ -1128,7 +1207,7 @@
           "m_szMountTarget": 2328
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CBot": {
         "fields": {
@@ -1169,7 +1248,7 @@
           "m_nOverrideBlockLOS": 2012
         },
         "metadata": [],
-        "parent": "expRandom"
+        "parent": "CBaseModelEntity"
       },
       "CBreakableProp": {
         "fields": {
@@ -1208,7 +1287,7 @@
           "m_vDefBurstOffset": 2620
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseProp"
       },
       "CBreakableStageHelper": {
         "fields": {
@@ -1264,7 +1343,7 @@
           "m_vecDestination": 120
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": null
       },
       "CBtActionParachutePositioning": {
         "fields": {
@@ -1326,7 +1405,7 @@
           "m_LegacyTeamNum": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CC4": {
         "fields": {
@@ -1343,7 +1422,7 @@
           "m_vecLastValidPlayerHeldPosition": 4192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CCS2ChickenGraphController": {
         "fields": {
@@ -1358,7 +1437,12 @@
           "m_runVariation": 240,
           "m_squatVariation": 288
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CCS2PawnGraphController": {
@@ -1393,7 +1477,12 @@
           "m_moveType": 1440,
           "m_rightFootTarget": 1896
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CCS2WeaponGraphController": {
@@ -1419,7 +1508,12 @@
           "m_weaponExtraInfo": 256,
           "m_weaponType": 232
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CCSBot": {
@@ -1566,37 +1660,37 @@
           "m_zoomTimer": 23672
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBot"
       },
       "CCSGO_EndOfMatchLineupEnd": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_EndOfMatchLineupEndpoint"
       },
       "CCSGO_EndOfMatchLineupEndpoint": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSGO_EndOfMatchLineupStart": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_EndOfMatchLineupEndpoint"
       },
       "CCSGO_TeamIntroCharacterPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamPreviewCharacterPosition"
       },
       "CCSGO_TeamIntroCounterTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamIntroCharacterPosition"
       },
       "CCSGO_TeamIntroTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamIntroCharacterPosition"
       },
       "CCSGO_TeamPreviewCharacterPosition": {
         "fields": {
@@ -1610,37 +1704,37 @@
           "m_xuid": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSGO_TeamSelectCharacterPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamPreviewCharacterPosition"
       },
       "CCSGO_TeamSelectCounterTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamSelectCharacterPosition"
       },
       "CCSGO_TeamSelectTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamSelectCharacterPosition"
       },
       "CCSGO_WingmanIntroCharacterPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_TeamIntroCharacterPosition"
       },
       "CCSGO_WingmanIntroCounterTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_WingmanIntroCharacterPosition"
       },
       "CCSGO_WingmanIntroTerroristPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSGO_WingmanIntroCharacterPosition"
       },
       "CCSGameModeRules": {
         "fields": {
@@ -1863,56 +1957,56 @@
           "m_vecMainCTSpawnPos": 3920
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": null
       },
       "CCSGameRulesProxy": {
         "fields": {
           "m_pGameRules": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CGameRulesProxy"
       },
       "CCSMinimapBoundary": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSObserverPawn": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSPlayerPawnBase"
       },
       "CCSObserver_CameraServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSPlayerBase_CameraServices"
       },
       "CCSObserver_MovementServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_MovementServices"
       },
       "CCSObserver_ObserverServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_ObserverServices"
       },
       "CCSObserver_UseServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_UseServices"
       },
       "CCSPetPlacement": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSPlace": {
         "fields": {
           "m_name": 1920
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CServerOnlyModelEntity"
       },
       "CCSPlayerAnimationState": {
         "fields": {
@@ -1949,7 +2043,7 @@
           "m_iFOVStart": 380
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CPlayer_CameraServices"
       },
       "CCSPlayerController": {
         "fields": {
@@ -2047,7 +2141,7 @@
           "m_unPlayerTvControlFlags": 2168
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBasePlayerController"
       },
       "CCSPlayerController_ActionTrackingServices": {
         "fields": {
@@ -2058,7 +2152,7 @@
           "m_perRoundStats": 64
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerControllerComponent"
       },
       "CCSPlayerController_DamageServices": {
         "fields": {
@@ -2066,7 +2160,7 @@
           "m_nSendUpdate": 64
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerControllerComponent"
       },
       "CCSPlayerController_InGameMoneyServices": {
         "fields": {
@@ -2078,7 +2172,7 @@
           "m_iTotalCashSpent": 80
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerControllerComponent"
       },
       "CCSPlayerController_InventoryServices": {
         "fields": {
@@ -2094,7 +2188,7 @@
           "m_vecServerAuthoritativeWeaponSlots": 3928
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerControllerComponent"
       },
       "CCSPlayerController_InventoryServices__NetworkedLoadoutSlot_t": {
         "fields": {
@@ -2244,7 +2338,7 @@
           "m_wasNotKilledNaturally": 5033
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSPlayerPawnBase"
       },
       "CCSPlayerPawnBase": {
         "fields": {
@@ -2265,7 +2359,7 @@
           "m_pPingServices": 3088
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBasePlayerPawn"
       },
       "CCSPlayerResource": {
         "fields": {
@@ -2281,7 +2375,7 @@
           "m_isHostageFollowingSomeone": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSPlayer_ActionTrackingServices": {
         "fields": {
@@ -2291,31 +2385,31 @@
           "m_weaponPurchasesThisRound": 664
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_BulletServices": {
         "fields": {
           "m_totalHitsOnServer": 72
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_BuyServices": {
         "fields": {
           "m_vecSellbackPurchaseEntries": 208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_CameraServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSPlayerBase_CameraServices"
       },
       "CCSPlayer_DamageReactServices": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_HostageServices": {
         "fields": {
@@ -2323,7 +2417,7 @@
           "m_hCarriedHostageProp": 76
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_ItemServices": {
         "fields": {
@@ -2331,7 +2425,7 @@
           "m_bHasHelmet": 73
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_ItemServices"
       },
       "CCSPlayer_MovementServices": {
         "fields": {
@@ -2389,7 +2483,7 @@
           "m_vecWalkWishVel": 1932
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_MovementServices_Humanoid"
       },
       "CCSPlayer_PingServices": {
         "fields": {
@@ -2397,7 +2491,7 @@
           "m_hPlayerPing": 92
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_RadioServices": {
         "fields": {
@@ -2408,7 +2502,7 @@
           "m_flRadioTokenSlots": 84
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CCSPlayer_UseServices": {
         "fields": {
@@ -2417,7 +2511,7 @@
           "m_hLastKnownUseEntity": 72
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_UseServices"
       },
       "CCSPlayer_WaterServices": {
         "fields": {
@@ -2429,7 +2523,7 @@
           "m_vecWaterJumpVel": 88
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_WaterServices"
       },
       "CCSPlayer_WeaponServices": {
         "fields": {
@@ -2448,7 +2542,7 @@
           "m_networkAnimTiming": 6240
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_WeaponServices"
       },
       "CCSPointPulseAPI": {
         "fields": {},
@@ -2458,12 +2552,12 @@
       "CCSPointScriptEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCSSprite": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CSprite"
       },
       "CCSTeam": {
         "fields": {
@@ -2483,7 +2577,7 @@
           "m_szTeamMatchStat": 1385
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CTeam"
       },
       "CCSWeaponBase": {
         "fields": {
@@ -2541,7 +2635,7 @@
           "m_weaponMode": 3376
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBasePlayerWeapon"
       },
       "CCSWeaponBaseGun": {
         "fields": {
@@ -2557,12 +2651,12 @@
           "m_zoomLevel": 4144
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CCSWeaponBaseShotgun": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CCSWeaponBaseVData": {
         "fields": {
@@ -2651,7 +2745,20 @@
           "m_vecMuzzlePos0": 1544,
           "m_vecMuzzlePos1": 1556
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressBaseClassField",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertySuppressBaseClassField",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CCashStack": {
@@ -2659,7 +2766,7 @@
           "m_nCashStackValue": 1896
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseModelEntity"
       },
       "CChangeLevel": {
         "fields": {
@@ -2672,7 +2779,7 @@
           "m_sMapName": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CChicken": {
         "fields": {
@@ -2706,7 +2813,7 @@
           "m_vocalizeTimer": 3928
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CDynamicProp"
       },
       "CChoreoComponent": {
         "fields": {
@@ -2722,7 +2829,7 @@
       "CChoreoInfoTarget": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CCitadelSoundOpvarSetOBB": {
         "fields": {
@@ -2736,7 +2843,7 @@
           "m_vDistanceOuterMins": 1240
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCollisionProperty": {
         "fields": {
@@ -2782,7 +2889,7 @@
           "m_netlookupFilename": 1240
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CColorCorrectionVolume": {
         "fields": {
@@ -2796,7 +2903,7 @@
           "m_lookupFilename": 2260
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CCommentaryAuto": {
         "fields": {
@@ -2805,7 +2912,7 @@
           "m_OnCommentaryNewGame": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CCommentarySystem": {
         "fields": {
@@ -2820,13 +2927,18 @@
           "m_iTeleportStage": 24,
           "m_vecNodes": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CCommentaryViewPosition": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CSprite"
       },
       "CConstantForceController": {
         "fields": {
@@ -2843,7 +2955,7 @@
           "m_massScale": 2368
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseAnimGraph"
       },
       "CCopyRecipientFilter": {
         "fields": {
@@ -2853,7 +2965,7 @@
         },
         "metadata": [
           {
-            "name": "\u0005",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -2866,12 +2978,12 @@
           "m_flLogoLength": 1220
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CDEagle": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSWeaponBaseGun"
       },
       "CDamageRecord": {
         "fields": {
@@ -2906,7 +3018,12 @@
           "m_uint64s": 72,
           "m_vectors": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDebugHistory": {
@@ -2914,7 +3031,7 @@
           "m_nNpcEvents": 4097256
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CDebugSnapshotData_t": {
         "fields": {
@@ -2933,7 +3050,12 @@
           "m_userVector": 20,
           "m_vecDebugOverlayData": 224
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDecalGroupVData": {
@@ -2941,7 +3063,12 @@
           "m_flTotalProbability": 24,
           "m_vecOptions": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDecalInstance": {
@@ -2973,13 +3100,18 @@
           "m_vPositionOS": 44,
           "m_vSAxisLS": 68
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDecoyGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenade"
       },
       "CDecoyProjectile": {
         "fields": {
@@ -2989,7 +3121,7 @@
           "m_shotsRemaining": 2636
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseCSGrenadeProjectile"
       },
       "CDestructiblePart": {
         "fields": {
@@ -3001,7 +3133,16 @@
           "m_nOtherHitgroupsToDestroyWhenFullyDestructed": 16,
           "m_sBodyGroupName": 48
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MFgdHelper",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDestructiblePart_DamageLevel": {
@@ -3017,7 +3158,12 @@
           "m_sCustomDeathHandshake": 48,
           "m_sName": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDestructiblePartsComponent": {
@@ -3035,7 +3181,12 @@
           "m_PartsDataByHitGroup": 0,
           "m_nMinMaxNumberHitGroupsToDestroyWhenGibbing": 40
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CDynamicLight": {
@@ -3051,7 +3202,7 @@
           "m_SpotRadius": 1916
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CDynamicNavConnectionsVolume": {
         "fields": {
@@ -3064,7 +3215,7 @@
           "m_vecConnections": 2280
         },
         "metadata": [],
-        "parent": null
+        "parent": "CTriggerMultiple"
       },
       "CDynamicProp": {
         "fields": {
@@ -3091,28 +3242,23 @@
           "m_pOutputAnimLoopCycleOver": 2832,
           "m_pOutputAnimOver": 2808
         },
-        "metadata": [
-          {
-            "name": "\u0002",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBreakableProp"
       },
       "CDynamicPropAlias_cable_dynamic": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CDynamicPropAlias_dynamic_prop": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CDynamicPropAlias_prop_dynamic_override": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CEconEntity": {
         "fields": {
@@ -3127,7 +3273,7 @@
           "m_nFallbackStatTrak": 3172
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseAnimGraph"
       },
       "CEconItemAttribute": {
         "fields": {
@@ -3165,7 +3311,7 @@
           "m_nForceSkin": 3184
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEconEntity"
       },
       "CEffectData": {
         "fields": {
@@ -3195,18 +3341,23 @@
       },
       "CEmptyGraphController": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CEnableMotionFixup": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEntityBlocker": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CEntityComponent": {
         "fields": {},
@@ -3227,7 +3378,7 @@
           "m_vDissolverOrigin": 1928
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseModelEntity"
       },
       "CEntityFlame": {
         "fields": {
@@ -3243,7 +3394,7 @@
           "m_iNumHitboxFires": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEntityIdentity": {
         "fields": {
@@ -3274,7 +3425,20 @@
       },
       "CEntitySubclassVDataBase": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataNodeType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOverlayType",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CEnvBeam": {
@@ -3300,7 +3464,7 @@
           "m_vEndPointWorld": 2124
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBeam"
       },
       "CEnvBeverage": {
         "fields": {
@@ -3308,7 +3472,7 @@
           "m_nBeverageType": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEnvCombinedLightProbeVolume": {
         "fields": {
@@ -3342,18 +3506,13 @@
           "m_Entity_vBoxMins": 5504,
           "m_Entity_vEdgeFadeDists": 5552
         },
-        "metadata": [
-          {
-            "name": "\t",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CEnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvCombinedLightProbeVolume"
       },
       "CEnvCubemap": {
         "fields": {
@@ -3376,18 +3535,13 @@
           "m_Entity_vBoxProjectMins": 1336,
           "m_Entity_vEdgeFadeDists": 1380
         },
-        "metadata": [
-          {
-            "name": "7",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "MGetKV3ClassDefaults"
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CEnvCubemapBox": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvCubemap"
       },
       "CEnvCubemapFog": {
         "fields": {
@@ -3417,7 +3571,7 @@
           "m_nHeightFogType": 1256
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEnvDecal": {
         "fields": {
@@ -3431,13 +3585,8 @@
           "m_hDecalMaterial": 1896,
           "m_nRenderOrder": 1916
         },
-        "metadata": [
-          {
-            "name": ")",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "MGetKV3ClassDefaults"
+        "metadata": [],
+        "parent": "CBaseModelEntity"
       },
       "CEnvDetailController": {
         "fields": {
@@ -3445,14 +3594,14 @@
           "m_flFadeStartDist": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEnvEntityIgniter": {
         "fields": {
           "m_flLifetime": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEnvEntityMaker": {
         "fields": {
@@ -3470,7 +3619,7 @@
           "m_vecEntityMins": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvExplosion": {
         "fields": {
@@ -3491,7 +3640,7 @@
           "m_iszEntityIgnoreName": 1968
         },
         "metadata": [],
-        "parent": null
+        "parent": "CModelPointEntity"
       },
       "CEnvFade": {
         "fields": {
@@ -3501,7 +3650,7 @@
           "m_fadeColor": 1192
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CLogicalEntity"
       },
       "CEnvGlobal": {
         "fields": {
@@ -3512,14 +3661,14 @@
           "m_triggermode": 1232
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CEnvHudHint": {
         "fields": {
           "m_iszMessage": 1192
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointEntity"
       },
       "CEnvInstructorHint": {
         "fields": {
@@ -3549,7 +3698,7 @@
           "m_iszReplace_Key": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvInstructorVRHint": {
         "fields": {
@@ -3564,7 +3713,7 @@
           "m_iszStartSound": 1224
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvLaser": {
         "fields": {
@@ -3575,7 +3724,7 @@
           "m_pSprite": 2064
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBeam"
       },
       "CEnvLightProbeVolume": {
         "fields": {
@@ -3603,7 +3752,7 @@
           "m_Entity_vBoxMins": 5352
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseEntity"
       },
       "CEnvMuzzleFlash": {
         "fields": {
@@ -3611,7 +3760,7 @@
           "m_iszParentAttachment": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvParticleGlow": {
         "fields": {
@@ -3622,7 +3771,7 @@
           "m_hTextureOverride": 3312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CParticleSystem"
       },
       "CEnvShake": {
         "fields": {
@@ -3639,7 +3788,7 @@
           "m_stopTime": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvSky": {
         "fields": {
@@ -3656,13 +3805,8 @@
           "m_vTintColor": 1913,
           "m_vTintColorLightingOnly": 1917
         },
-        "metadata": [
-          {
-            "name": ")",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseModelEntity"
       },
       "CEnvSoundscape": {
         "fields": {
@@ -3679,34 +3823,34 @@
           "m_soundscapeName": 1320
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseEntity"
       },
       "CEnvSoundscapeAlias_snd_soundscape": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvSoundscape"
       },
       "CEnvSoundscapeProxy": {
         "fields": {
           "m_MainSoundscapeName": 1336
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEnvSoundscape"
       },
       "CEnvSoundscapeProxyAlias_snd_soundscape_proxy": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvSoundscapeProxy"
       },
       "CEnvSoundscapeTriggerable": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvSoundscape"
       },
       "CEnvSoundscapeTriggerableAlias_snd_soundscape_triggerable": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEnvSoundscapeTriggerable"
       },
       "CEnvSpark": {
         "fields": {
@@ -3717,14 +3861,14 @@
           "m_nType": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvSplash": {
         "fields": {
           "m_flScale": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvTilt": {
         "fields": {
@@ -3734,7 +3878,7 @@
           "m_stopTime": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvViewPunch": {
         "fields": {
@@ -3742,7 +3886,7 @@
           "m_flRadius": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CEnvVolumetricFogController": {
         "fields": {
@@ -3783,13 +3927,8 @@
           "m_vNoiseScale": 1332,
           "m_vWindDirection": 1348
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CEnvVolumetricFogVolume": {
         "fields": {
@@ -3812,20 +3951,15 @@
           "m_vBoxMaxs": 1208,
           "m_vBoxMins": 1196
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CEnvWind": {
         "fields": {
           "m_EnvWindShared": 1192
         },
         "metadata": [],
-        "parent": "MGetKV3ClassDefaults"
+        "parent": "CBaseEntity"
       },
       "CEnvWindController": {
         "fields": {
@@ -3842,7 +3976,7 @@
           "m_nVolumeResolutionZ": 1520
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CEnvWindShared": {
         "fields": {
@@ -3879,13 +4013,8 @@
           "m_vBoxMaxs": 1208,
           "m_vBoxMins": 1196
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CExplosionTypeData": {
         "fields": {
@@ -3895,7 +4024,20 @@
           "m_bHasForces": 241,
           "m_bIsIncindiary": 240
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOverlayType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataAssociatedFile",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CFilterAttributeInt": {
@@ -3903,21 +4045,21 @@
           "m_sAttributeName": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterClass": {
         "fields": {
           "m_iFilterClass": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterContext": {
         "fields": {
           "m_iFilterContext": 1248
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseFilter"
       },
       "CFilterEnemy": {
         "fields": {
@@ -3928,26 +4070,26 @@
           "m_nMaxSquadmatesPerEnemy": 1264
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterLOS": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterMassGreater": {
         "fields": {
           "m_fFilterMass": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterModel": {
         "fields": {
           "m_iFilterModel": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterMultiple": {
         "fields": {
@@ -3956,7 +4098,7 @@
           "m_nFilterType": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterMultipleAPI": {
         "fields": {},
@@ -3968,39 +4110,49 @@
           "m_iFilterName": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterProximity": {
         "fields": {
           "m_flRadius": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFilterTeam": {
         "fields": {
           "m_iFilterTeam": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "CFireCrackerBlast": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CInferno"
       },
       "CFiringModeFloat": {
         "fields": {
           "m_flValues": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CFiringModeInt": {
         "fields": {
           "m_nValues": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CFish": {
@@ -4031,7 +4183,7 @@
           "m_z": 2384
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CFishPool": {
         "fields": {
@@ -4044,12 +4196,12 @@
           "m_waterLevel": 1220
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CFlashbang": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenade"
       },
       "CFlashbangProjectile": {
         "fields": {
@@ -4058,7 +4210,7 @@
           "m_numTeammatesHit": 2613
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenadeProjectile"
       },
       "CFloatExponentialMovingAverage": {
         "fields": {},
@@ -4076,20 +4228,15 @@
           "m_fog": 1192,
           "m_iChangedVariables": 1300
         },
-        "metadata": [
-          {
-            "name": "\u0001",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CFogTrigger": {
         "fields": {
           "m_fog": 2248
         },
         "metadata": [],
-        "parent": "MNotSaved"
+        "parent": "CBaseTrigger"
       },
       "CFogVolume": {
         "fields": {
@@ -4100,7 +4247,7 @@
           "m_postProcessName": 1904
         },
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyModelEntity"
       },
       "CFootstepControl": {
         "fields": {
@@ -4108,11 +4255,16 @@
           "m_source": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CFootstepTableHandle": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyCustomFGDType",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CFuncBrush": {
@@ -4125,7 +4277,7 @@
           "m_iszExcludedClass": 1912
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncConveyor": {
         "fields": {
@@ -4140,7 +4292,7 @@
           "m_vecMoveDirEntitySpace": 1920
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncElectrifiedVolume": {
         "fields": {
@@ -4150,12 +4302,12 @@
           "m_iszEffectSource": 1952
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CFuncBrush"
       },
       "CFuncIllusionary": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseModelEntity"
       },
       "CFuncInteractionLayerClip": {
         "fields": {
@@ -4164,7 +4316,7 @@
           "m_iszInteractsWith": 1912
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncLadder": {
         "fields": {
@@ -4182,12 +4334,12 @@
           "m_vecPlayerMountPositionTop": 1948
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseModelEntity"
       },
       "CFuncLadderAlias_func_useableladder": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CFuncLadder"
       },
       "CFuncMonitor": {
         "fields": {
@@ -4202,7 +4354,7 @@
           "m_targetCamera": 1928
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CFuncBrush"
       },
       "CFuncMoveLinear": {
         "fields": {
@@ -4221,12 +4373,12 @@
           "m_vecMoveDirParentSpace": 2040
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseToggle"
       },
       "CFuncMoveLinearAlias_momentary_door": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CFuncMoveLinear"
       },
       "CFuncMover": {
         "fields": {
@@ -4323,7 +4475,7 @@
           "m_vLerpToNewPosStartInPathEntitySpace": 2200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncMoverAPI": {
         "fields": {},
@@ -4336,7 +4488,7 @@
           "m_nBlockedTeamNumber": 1908
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncNavObstruction": {
         "fields": {
@@ -4344,14 +4496,14 @@
           "m_bUseAsyncObstacleUpdate": 1921
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncPlat": {
         "fields": {
           "m_sNoise": 2064
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBasePlatTrain"
       },
       "CFuncPlatRot": {
         "fields": {
@@ -4359,17 +4511,17 @@
           "m_start": 2084
         },
         "metadata": [],
-        "parent": null
+        "parent": "CFuncPlat"
       },
       "CFuncPropRespawnZone": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CFuncRetakeBarrier": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CFuncRotating": {
         "fields": {
@@ -4393,7 +4545,7 @@
           "m_vecClientOrigin": 2068
         },
         "metadata": [],
-        "parent": "MGetKV3ClassDefaults"
+        "parent": "CBaseModelEntity"
       },
       "CFuncRotator": {
         "fields": {
@@ -4440,7 +4592,7 @@
           "m_vecRotatorQueueHistory": 2328
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseModelEntity"
       },
       "CFuncShatterglass": {
         "fields": {
@@ -4472,14 +4624,14 @@
           "m_vecShatterGlassShards": 1992
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncTankTrain": {
         "fields": {
           "m_OnDeath": 2192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CFuncTrackTrain"
       },
       "CFuncTimescale": {
         "fields": {
@@ -4490,12 +4642,12 @@
           "m_isStarted": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CFuncTrackAuto": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CFuncTrackChange"
       },
       "CFuncTrackChange": {
         "fields": {
@@ -4510,7 +4662,7 @@
           "m_use": 2144
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CFuncPlatRot"
       },
       "CFuncTrackTrain": {
         "fields": {
@@ -4553,7 +4705,7 @@
           "m_vPosPrev": 1904
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncTrain": {
         "fields": {
@@ -4565,43 +4717,43 @@
           "m_iszLastTarget": 2088
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBasePlatTrain"
       },
       "CFuncTrainControls": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncVPhysicsClip": {
         "fields": {
           "m_bDisabled": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncVehicleClip": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CFuncWall": {
         "fields": {
           "m_nState": 1896
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseModelEntity"
       },
       "CFuncWallToggle": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CFuncWall"
       },
       "CFuncWater": {
         "fields": {
           "m_BuoyancyHelper": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CGameChoreoServices": {
         "fields": {
@@ -4617,7 +4769,7 @@
       "CGameEnd": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CRulePointEntity"
       },
       "CGameGibManager": {
         "fields": {
@@ -4627,7 +4779,7 @@
           "m_iMaxPieces": 1224
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseEntity"
       },
       "CGameMoney": {
         "fields": {
@@ -4637,12 +4789,12 @@
           "m_strAwardText": 1968
         },
         "metadata": [],
-        "parent": null
+        "parent": "CRulePointEntity"
       },
       "CGamePlayerEquip": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CRulePointEntity"
       },
       "CGamePlayerZone": {
         "fields": {
@@ -4652,7 +4804,7 @@
           "m_PlayersOutCount": 1984
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CRuleBrushEntity"
       },
       "CGameRules": {
         "fields": {
@@ -4671,7 +4823,7 @@
       "CGameRulesProxy": {
         "fields": {},
         "metadata": [],
-        "parent": "�\u0016\u000ed�"
+        "parent": "CBaseEntity"
       },
       "CGameSceneNode": {
         "fields": {
@@ -4742,7 +4894,7 @@
         },
         "metadata": [
           {
-            "name": "\u000e",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -4769,7 +4921,7 @@
           "m_textParms": 1920
         },
         "metadata": [],
-        "parent": null
+        "parent": "CRulePointEntity"
       },
       "CGenericConstraint": {
         "fields": {
@@ -4824,7 +4976,7 @@
           "m_nLinearMotionZ": 1308
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CGlowProperty": {
         "fields": {
@@ -4863,7 +5015,7 @@
           "m_hGradientFogTexture": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CGunTarget": {
         "fields": {
@@ -4872,22 +5024,22 @@
           "m_on": 2024
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseToggle"
       },
       "CHEGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenade"
       },
       "CHEGrenadeProjectile": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenadeProjectile"
       },
       "CHandleDummy": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CHandleTest": {
         "fields": {
@@ -4895,7 +5047,7 @@
           "m_bSendHandle": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CHintMessage": {
         "fields": {
@@ -4920,7 +5072,7 @@
           "m_flBoundsExpandRadius": 20
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CHostage": {
         "fields": {
@@ -4965,34 +5117,34 @@
           "m_wiggleTimer": 11248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CHostageExpresserShim"
       },
       "CHostageAlias_info_hostage_spawn": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CHostage"
       },
       "CHostageCarriableProp": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CHostageExpresserShim": {
         "fields": {
           "m_pExpresser": 2560
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCombatCharacter"
       },
       "CHostageRescueZone": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CHostageRescueZoneShim"
       },
       "CHostageRescueZoneShim": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CInButtonState": {
         "fields": {
@@ -5004,7 +5156,7 @@
       "CIncendiaryGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CMolotovGrenade"
       },
       "CInferno": {
         "fields": {
@@ -5034,7 +5186,7 @@
           "m_vecOriginalSpawnLocation": 4908
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseModelEntity"
       },
       "CInfoChoreoAnchor": {
         "fields": {
@@ -5042,7 +5194,7 @@
           "m_vecTargetWarps": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoChoreoAnchorPosition": {
         "fields": {
@@ -5059,12 +5211,12 @@
       "CInfoData": {
         "fields": {},
         "metadata": [],
-        "parent": "MGetKV3ClassDefaults"
+        "parent": "CServerOnlyEntity"
       },
       "CInfoDeathmatchSpawn": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "SpawnPoint"
       },
       "CInfoDynamicShadowHint": {
         "fields": {
@@ -5075,7 +5227,7 @@
           "m_nLightChoice": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoDynamicShadowHintBox": {
         "fields": {
@@ -5083,7 +5235,7 @@
           "m_vBoxMins": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CInfoDynamicShadowHint"
       },
       "CInfoFan": {
         "fields": {
@@ -5093,7 +5245,7 @@
           "m_flCurveDistRange": 1264
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoGameEventProxy": {
         "fields": {
@@ -5101,27 +5253,27 @@
           "m_iszEventName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoInstructorHintBombTargetA": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointEntity"
       },
       "CInfoInstructorHintBombTargetB": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoInstructorHintHostageRescueZone": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoInstructorHintTarget": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoInteraction": {
         "fields": {
@@ -5142,17 +5294,17 @@
           "m_strSceneVDataName": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoLadderDismount": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CInfoLandmark": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CPointEntity"
       },
       "CInfoOffscreenPanoramaTexture": {
         "fields": {
@@ -5168,28 +5320,18 @@
           "m_szTargetsName": 1288,
           "m_vecCSSClasses": 1264
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CPointEntity"
       },
       "CInfoParticleTarget": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CPointEntity"
       },
       "CInfoPlayerCounterterrorist": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "SpawnPoint"
       },
       "CInfoPlayerStart": {
         "fields": {
@@ -5198,17 +5340,17 @@
           "m_pPawnSubclass": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoPlayerTerrorist": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "SpawnPoint"
       },
       "CInfoSpawnGroupLandmark": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointEntity"
       },
       "CInfoSpawnGroupLoadUnload": {
         "fields": {
@@ -5227,27 +5369,22 @@
           "m_sFixedSpawnGroupName": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CInfoTarget": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CPointEntity"
       },
       "CInfoTargetServerOnly": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyPointEntity"
       },
       "CInfoTeleportDestination": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CInfoVisibilityBox": {
         "fields": {
@@ -5256,7 +5393,7 @@
           "m_vBoxSize": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CInfoWorldLayer": {
         "fields": {
@@ -5269,7 +5406,7 @@
           "m_worldName": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CInstancedSceneEntity": {
         "fields": {
@@ -5282,7 +5419,7 @@
           "m_hTarget": 2004
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSceneEntity"
       },
       "CInstructorEventEntity": {
         "fields": {
@@ -5291,7 +5428,7 @@
           "m_iszName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CIronSightController": {
         "fields": {
@@ -5315,12 +5452,12 @@
           "m_vOriginalSpawnOrigin": 2480
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CItemAssaultSuit": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CItemDefuser": {
         "fields": {
@@ -5328,12 +5465,12 @@
           "m_nSpotRules": 2552
         },
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CItemDefuserAlias_item_defuser": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CItemDefuser"
       },
       "CItemDogtags": {
         "fields": {
@@ -5341,7 +5478,7 @@
           "m_OwningPlayer": 2528
         },
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CItemGeneric": {
         "fields": {
@@ -5379,29 +5516,29 @@
           "m_pTriggerSoundEffect": 2800
         },
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CItemGenericTriggerHelper": {
         "fields": {
           "m_hParentItem": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CItemKevlar": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CItemSoda": {
         "fields": {},
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseAnimGraph"
       },
       "CItem_Healthshot": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CWeaponBaseItem"
       },
       "CKeepUpright": {
         "fields": {
@@ -5415,14 +5552,14 @@
           "m_worldGoalAxis": 1200
         },
         "metadata": [],
-        "parent": "MPropertyAttributeSuggestionName"
+        "parent": "CPointEntity"
       },
       "CKnife": {
         "fields": {
           "m_bFirstAttack": 4144
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CLightComponent": {
         "fields": {
@@ -5499,39 +5636,34 @@
           "m_vPrecomputedOBBOrigin": 348
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CLightDirectionalEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CLightEntity"
       },
       "CLightEntity": {
         "fields": {
           "m_CLightComponent": 1896
         },
-        "metadata": [
-          {
-            "name": "\u000b",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseModelEntity"
       },
       "CLightEnvironmentEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CLightDirectionalEntity"
       },
       "CLightOrthoEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CLightEntity"
       },
       "CLightSpotEntity": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CLightEntity"
       },
       "CLogicAchievement": {
         "fields": {
@@ -5540,7 +5672,7 @@
           "m_iszAchievementEventID": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicActiveAutosave": {
         "fields": {
@@ -5550,7 +5682,7 @@
           "m_flTimeToTrigger": 1212
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicAutosave"
       },
       "CLogicAuto": {
         "fields": {
@@ -5567,7 +5699,7 @@
           "m_globalstate": 1432
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CLogicAutosave": {
         "fields": {
@@ -5576,7 +5708,7 @@
           "m_minHitPointsToCommit": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicBranch": {
         "fields": {
@@ -5586,7 +5718,7 @@
           "m_bInValue": 1192
         },
         "metadata": [],
-        "parent": "�i\u0011d�"
+        "parent": "CLogicalEntity"
       },
       "CLogicBranchList": {
         "fields": {
@@ -5598,7 +5730,7 @@
           "m_nLogicBranchNames": 1192
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CLogicalEntity"
       },
       "CLogicCase": {
         "fields": {
@@ -5610,7 +5742,7 @@
           "m_uchShuffleCaseMap": 1456
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CLogicalEntity"
       },
       "CLogicCollisionPair": {
         "fields": {
@@ -5622,7 +5754,7 @@
           "m_supportMultipleEntitiesWithSameName": 1209
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicCompare": {
         "fields": {
@@ -5634,7 +5766,7 @@
           "m_flInValue": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicDistanceAutosave": {
         "fields": {
@@ -5646,7 +5778,7 @@
           "m_iszTargetEntity": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicDistanceCheck": {
         "fields": {
@@ -5659,7 +5791,7 @@
           "m_iszEntityB": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicEventListener": {
         "fields": {
@@ -5669,14 +5801,14 @@
           "m_strEventName": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicGameEvent": {
         "fields": {
           "m_iszEventName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicGameEventListener": {
         "fields": {
@@ -5687,7 +5819,7 @@
           "m_iszGameEventName": 1232
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicLineToEntity": {
         "fields": {
@@ -5697,7 +5829,7 @@
           "m_StartEntity": 1240
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicMeasureMovement": {
         "fields": {
@@ -5712,7 +5844,7 @@
           "m_strTargetReference": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicNPCCounter": {
         "fields": {
@@ -5766,7 +5898,7 @@
           "m_nNPCState_3": 1776
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CLogicNPCCounterAABB": {
         "fields": {
@@ -5776,12 +5908,12 @@
           "m_vOuterMins": 1856
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicNPCCounter"
       },
       "CLogicNPCCounterOBB": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CLogicNPCCounterAABB"
       },
       "CLogicNavigation": {
         "fields": {
@@ -5789,7 +5921,7 @@
           "m_navProperty": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicPlayerProxy": {
         "fields": {
@@ -5800,12 +5932,12 @@
           "m_hPlayer": 1296
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CLogicalEntity"
       },
       "CLogicProximity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CLogicRelay": {
         "fields": {
@@ -5818,7 +5950,7 @@
           "m_bWaitForRefire": 1241
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CLogicRelayAPI": {
         "fields": {},
@@ -5828,12 +5960,12 @@
       "CLogicScript": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointEntity"
       },
       "CLogicalEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyEntity"
       },
       "CMapInfo": {
         "fields": {
@@ -5853,14 +5985,14 @@
           "m_iPetPopulation": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CMapSharedEnvironment": {
         "fields": {
           "m_targetMapName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMapVetoPickController": {
         "fields": {
@@ -5890,14 +6022,14 @@
           "m_nVoteMapIdsList": 1500
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseEntity"
       },
       "CMarkupVolume": {
         "fields": {
           "m_bDisabled": 1896
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseModelEntity"
       },
       "CMarkupVolumeTagged": {
         "fields": {
@@ -5910,14 +6042,14 @@
           "m_bIsInGroup": 1956
         },
         "metadata": [],
-        "parent": null
+        "parent": "CMarkupVolume"
       },
       "CMarkupVolumeTagged_Nav": {
         "fields": {
           "m_nScopes": 1960
         },
         "metadata": [],
-        "parent": null
+        "parent": "CMarkupVolumeTagged"
       },
       "CMarkupVolumeTagged_NavGame": {
         "fields": {
@@ -5926,7 +6058,7 @@
           "m_nScopes": 2000
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CMarkupVolumeWithRef"
       },
       "CMarkupVolumeWithRef": {
         "fields": {
@@ -5936,7 +6068,7 @@
           "m_vRefPosWorldSpace": 1984
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CMarkupVolumeTagged"
       },
       "CMathColorBlend": {
         "fields": {
@@ -5947,7 +6079,7 @@
           "m_flInMin": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMathCounter": {
         "fields": {
@@ -5964,7 +6096,7 @@
           "m_flMin": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMathRemap": {
         "fields": {
@@ -5981,7 +6113,7 @@
           "m_flOut2": 1204
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMessage": {
         "fields": {
@@ -5993,7 +6125,7 @@
           "m_sNoise": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CMessageEntity": {
         "fields": {
@@ -6004,12 +6136,12 @@
           "m_radius": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CModelPointEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CModelState": {
         "fields": {
@@ -6034,7 +6166,7 @@
       "CMolotovGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenade"
       },
       "CMolotovProjectile": {
         "fields": {
@@ -6043,7 +6175,7 @@
           "m_stillTimer": 2640
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenadeProjectile"
       },
       "CMomentaryRotButton": {
         "fields": {
@@ -6063,7 +6195,7 @@
           "m_start": 2412
         },
         "metadata": [],
-        "parent": null
+        "parent": "CRotButton"
       },
       "CMotorController": {
         "fields": {
@@ -6092,7 +6224,7 @@
           "m_OnStoppedAtOrInSegment": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPathNode"
       },
       "CMultiLightProxy": {
         "fields": {
@@ -6106,7 +6238,7 @@
           "m_vecLights": 1232
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMultiSource": {
         "fields": {
@@ -6117,7 +6249,7 @@
           "m_rgTriggered": 1320
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CMultiplayRules": {
         "fields": {},
@@ -6135,7 +6267,12 @@
         "fields": {
           "m_vecNavHulls": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CNavHullVData": {
@@ -6156,13 +6293,18 @@
           "m_flowMapGenerationEnabled": 52,
           "m_flowMapNodeMaxRadius": 56
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CNavSpaceInfo": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CNavVolume": {
         "fields": {},
@@ -6217,7 +6359,7 @@
       "CNavWalkable": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CNetworkOriginCellCoordQuantizedVector": {
         "fields": {
@@ -6294,7 +6436,12 @@
           "m_nWeaponDropNodeIdx": 34,
           "m_nWeaponTypeNodeIdx": 30
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CNmAimCSTask": {
@@ -6304,28 +6451,53 @@
       },
       "CNmEventConsumer": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CNmEventConsumerAttributes": {
         "fields": {},
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CNmEventConsumerLegacy": {
         "fields": {},
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CNmEventConsumerParticle": {
         "fields": {},
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CNmEventConsumerSound": {
         "fields": {},
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CNmSnapWeaponNode__CDefinition": {
         "fields": {
@@ -6333,7 +6505,12 @@
           "m_nWeaponCategoryNodeIdx": 26,
           "m_nWeaponTypeNodeIdx": 28
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CNmSnapWeaponTask": {
@@ -6344,7 +6521,7 @@
       "CNullEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "COmniLight": {
         "fields": {
@@ -6353,14 +6530,14 @@
           "m_flOuterAngle": 2644
         },
         "metadata": [],
-        "parent": "MEntityAllowsPortraitWorldSpawn"
+        "parent": "CBarnLight"
       },
       "COrnamentProp": {
         "fields": {
           "m_initialOwner": 2944
         },
         "metadata": [],
-        "parent": null
+        "parent": "CDynamicProp"
       },
       "CParticleSystem": {
         "fields": {
@@ -6387,13 +6564,8 @@
           "m_vServerControlPoints": 2440,
           "m_vecDataCPValue": 3276
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "xL���"
+        "metadata": [],
+        "parent": "CBaseModelEntity"
       },
       "CPathCorner": {
         "fields": {
@@ -6402,12 +6574,12 @@
           "m_flWait": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPathCornerCrash": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPathCorner"
       },
       "CPathKeyFrame": {
         "fields": {
@@ -6421,7 +6593,7 @@
           "m_qAngle": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CPathMover": {
         "fields": {
@@ -6430,7 +6602,7 @@
           "m_vecMovers": 1520
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CPathWithDynamicNodes"
       },
       "CPathMoverEntitySpawner": {
         "fields": {
@@ -6450,7 +6622,7 @@
           "m_vecQueuedRemovals": 1288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CPathNode": {
         "fields": {
@@ -6462,7 +6634,7 @@
           "m_xWSPrevParent": 1232
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointEntity"
       },
       "CPathParticleRope": {
         "fields": {
@@ -6484,17 +6656,17 @@
           "m_nEffectState": 1256
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPathParticleRopeAlias_path_particle_rope_clientside": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPathParticleRope"
       },
       "CPathQueryComponent": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CEntityComponent"
       },
       "CPathQueryUtil": {
         "fields": {
@@ -6513,13 +6685,8 @@
           "m_bClosedLoop": 1448,
           "m_pathString": 1440
         },
-        "metadata": [
-          {
-            "name": "5",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "\u0001"
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CPathSimpleAPI": {
         "fields": {},
@@ -6539,7 +6706,7 @@
           "m_pprevious": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPathWithDynamicNodes": {
         "fields": {
@@ -6547,7 +6714,7 @@
           "m_xInitialPathWorldToLocal": 1488
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPathSimple"
       },
       "CPhysBallSocket": {
         "fields": {
@@ -6559,7 +6726,7 @@
           "m_flSwingLimit": 1296
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysBox": {
         "fields": {
@@ -6580,7 +6747,7 @@
           "m_vHoverPosePosition": 2124
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBreakable"
       },
       "CPhysConstraint": {
         "fields": {
@@ -6600,7 +6767,7 @@
           "m_torqueLimit": 1252
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CPhysExplosion": {
         "fields": {
@@ -6617,7 +6784,7 @@
           "m_targetEntityName": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPhysFixed": {
         "fields": {
@@ -6631,7 +6798,7 @@
           "m_sBoneName2": 1320
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysForce": {
         "fields": {
@@ -6644,7 +6811,7 @@
           "m_wasRestored": 1220
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPhysHinge": {
         "fields": {
@@ -6669,12 +6836,12 @@
           "m_systemLoadScale": 1568
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysHingeAlias_phys_hinge_local": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPhysHinge"
       },
       "CPhysImpact": {
         "fields": {
@@ -6683,7 +6850,7 @@
           "m_distance": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPhysLength": {
         "fields": {
@@ -6694,7 +6861,7 @@
           "m_vecAttach": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysMagnet": {
         "fields": {
@@ -6712,7 +6879,7 @@
           "m_torqueLimit": 2424
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseAnimGraph"
       },
       "CPhysMotor": {
         "fields": {
@@ -6733,7 +6900,7 @@
           "m_spinUp": 1216
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CLogicalEntity"
       },
       "CPhysMotorAPI": {
         "fields": {},
@@ -6748,7 +6915,7 @@
           "m_position2": 1288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysSlideConstraint": {
         "fields": {
@@ -6764,21 +6931,21 @@
           "m_systemLoadScale": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysThruster": {
         "fields": {
           "m_localOrigin": 1288
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CPhysForce"
       },
       "CPhysTorque": {
         "fields": {
           "m_axis": 1288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysForce"
       },
       "CPhysWheelConstraint": {
         "fields": {
@@ -6796,26 +6963,36 @@
           "m_hSteeringMimicsEntity": 1332
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CPhysicalButton": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseButton"
       },
       "CPhysicsBodyGameMarkup": {
         "fields": {
           "m_Tag": 8,
           "m_TargetBody": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPhysicsBodyGameMarkupData": {
         "fields": {
           "m_PhysicsBodyMarkupByBoneName": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPhysicsEntitySolver": {
@@ -6826,7 +7003,7 @@
           "m_separationDuration": 1224
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CLogicalEntity"
       },
       "CPhysicsProp": {
         "fields": {
@@ -6874,17 +7051,17 @@
           "m_strItemClass": 3032
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBreakableProp"
       },
       "CPhysicsPropMultiplayer": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPhysicsProp"
       },
       "CPhysicsPropOverride": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CPhysicsProp"
       },
       "CPhysicsPropRespawnable": {
         "fields": {
@@ -6895,7 +7072,7 @@
           "m_vOriginalSpawnOrigin": 3088
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysicsProp"
       },
       "CPhysicsShake": {
         "fields": {
@@ -6917,14 +7094,14 @@
           "m_teleportTick": 1256
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPhysicsWire": {
         "fields": {
           "m_nDensity": 1192
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseEntity"
       },
       "CPlantedC4": {
         "fields": {
@@ -6957,14 +7134,14 @@
           "m_nSpotRules": 3264
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseAnimGraph"
       },
       "CPlatTrigger": {
         "fields": {
           "m_pPlatform": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CPlayerControllerComponent": {
         "fields": {
@@ -6989,7 +7166,7 @@
           "m_szPlaceName": 1213
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPlayerSprayDecal": {
         "fields": {
@@ -7010,7 +7187,7 @@
           "m_vecStart": 1924
         },
         "metadata": [],
-        "parent": null
+        "parent": "CModelPointEntity"
       },
       "CPlayerVisibility": {
         "fields": {
@@ -7022,12 +7199,12 @@
           "m_flVisibilityStrength": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPlayer_AutoaimServices": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_CameraServices": {
         "fields": {
@@ -7045,17 +7222,17 @@
           "m_vecCsViewPunchAngle": 72
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_FlashlightServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_ItemServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_MovementServices": {
         "fields": {
@@ -7079,7 +7256,7 @@
           "m_vecOldViewAngles": 576
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_MovementServices_Humanoid": {
         "fields": {
@@ -7092,7 +7269,7 @@
           "m_vecSmoothedVelocity": 644
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayer_MovementServices"
       },
       "CPlayer_ObserverServices": {
         "fields": {
@@ -7102,17 +7279,17 @@
           "m_iObserverMode": 72
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_UseServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_WaterServices": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPlayer_WeaponServices": {
         "fields": {
@@ -7123,7 +7300,7 @@
           "m_iAmmo": 104
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPlayerPawnComponent"
       },
       "CPointAngleSensor": {
         "fields": {
@@ -7141,7 +7318,7 @@
           "m_nLookAtName": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointAngularVelocitySensor": {
         "fields": {
@@ -7163,12 +7340,12 @@
           "m_vecAxis": 1232
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointBroadcastClientCommand": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointCamera": {
         "fields": {
@@ -7199,32 +7376,27 @@
           "m_flZNear": 1240,
           "m_pNext": 1280
         },
-        "metadata": [
-          {
-            "name": "\u0001",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CPointCameraVFOV": {
         "fields": {
           "m_flVerticalFOV": 1288
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointCamera"
       },
       "CPointChildModifier": {
         "fields": {
           "m_bOrphanInsteadOfDeletingChildrenOnRemove": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointClientCommand": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointClientUIDialog": {
         "fields": {
@@ -7232,7 +7404,7 @@
           "m_hActivator": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseClientUIEntity"
       },
       "CPointClientUIWorldPanel": {
         "fields": {
@@ -7261,20 +7433,15 @@
           "m_unVerticalAlign": 2280,
           "m_vecCSSClasses": 2296
         },
-        "metadata": [
-          {
-            "name": "\u0006",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseClientUIEntity"
       },
       "CPointClientUIWorldTextPanel": {
         "fields": {
           "m_messageText": 2336
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CPointClientUIWorldPanel"
       },
       "CPointCommentaryNode": {
         "fields": {
@@ -7310,12 +7477,12 @@
           "m_vecTeleportOrigin": 2472
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseAnimGraph"
       },
       "CPointEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPointEntityFinder": {
         "fields": {
@@ -7328,7 +7495,7 @@
           "m_iRefName": 1216
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseEntity"
       },
       "CPointGamestatsCounter": {
         "fields": {
@@ -7336,14 +7503,14 @@
           "m_strStatisticName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointGiveAmmo": {
         "fields": {
           "m_pActivator": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointHurt": {
         "fields": {
@@ -7355,7 +7522,7 @@
           "m_strTarget": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointOrient": {
         "fields": {
@@ -7367,13 +7534,8 @@
           "m_nConstraint": 1212,
           "m_nGoalDirection": 1208
         },
-        "metadata": [
-          {
-            "name": "\u0002",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CPointPrefab": {
         "fields": {
@@ -7386,7 +7548,7 @@
           "m_targetMapName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyPointEntity"
       },
       "CPointPrefabAPI": {
         "fields": {},
@@ -7400,12 +7562,12 @@
           "m_hTargetEntity": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointPulse": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPointPush": {
         "fields": {
@@ -7418,12 +7580,12 @@
           "m_iszFilterName": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointServerCommand": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointTeleport": {
         "fields": {
@@ -7433,7 +7595,7 @@
           "m_vSaveOrigin": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyPointEntity"
       },
       "CPointTeleportAPI": {
         "fields": {},
@@ -7456,7 +7618,7 @@
           "m_ownerSpawnGroupType": 1228
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CPointTemplateAPI": {
         "fields": {},
@@ -7511,7 +7673,7 @@
           "m_vecPreviousTestPoint": 1348
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPointVelocitySensor": {
         "fields": {
@@ -7523,7 +7685,7 @@
           "m_vecAxis": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CPointWorldText": {
         "fields": {
@@ -7545,7 +7707,7 @@
           "m_nReorientMode": 2580
         },
         "metadata": [],
-        "parent": null
+        "parent": "CModelPointEntity"
       },
       "CPostProcessingVolume": {
         "fields": {
@@ -7562,23 +7724,18 @@
           "m_flTonemapEVSmoothingRange": 2304,
           "m_hPostSettings": 2264
         },
-        "metadata": [
-          {
-            "name": "=",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "CBaseTrigger"
       },
       "CPrecipitation": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CPrecipitationBlocker": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CPrecipitationVData": {
         "fields": {
@@ -7592,7 +7749,12 @@
           "m_szModifier": 288,
           "m_szParticlePrecipitationEffect": 40
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPropDataComponent": {
@@ -7609,7 +7771,7 @@
           "m_nMotionDisabledSpawnFlag": 60
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CPropDoorRotating": {
         "fields": {
@@ -7633,7 +7795,7 @@
           "m_vecForwardBoundsMin": 3552
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBasePropDoor"
       },
       "CPropDoorRotatingBreakable": {
         "fields": {
@@ -7643,7 +7805,7 @@
           "m_isAbleToCloseAreaPortals": 3617
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPropDoorRotating"
       },
       "CPulseAnimFuncs": {
         "fields": {},
@@ -7652,55 +7814,104 @@
       },
       "CPulseArraylib": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Base": {
         "fields": {
           "m_nEditorNodeID": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_BaseFlow": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_BaseLerp": {
         "fields": {
           "m_WakeResume": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_BaseLerp__CursorState_t": {
         "fields": {
           "m_EndTime": 4,
           "m_StartTime": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_BaseRequirement": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_BaseState": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_BaseValue": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_BaseYieldingInflow": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_BooleanSwitchState": {
         "fields": {
@@ -7709,15 +7920,49 @@
           "m_WhenFalse": 336,
           "m_WhenTrue": 264
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_CursorQueue": {
         "fields": {
           "m_nCursorsAllowedToRunParallel": 152
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_FireCursors": {
         "fields": {
@@ -7726,7 +7971,12 @@
           "m_Outflows": 72,
           "m_bWaitForChildOutflows": 96
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Inflow_BaseEntrypoint": {
@@ -7734,7 +7984,12 @@
           "m_EntryChunk": 72,
           "m_RegisterMap": 80
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Inflow_EntOutputHandler": {
@@ -7743,22 +7998,37 @@
           "m_SourceEntity": 128,
           "m_SourceOutput": 144
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Inflow_EventHandler": {
         "fields": {
           "m_EventName": 128
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Inflow_GraphHook": {
         "fields": {
           "m_HookName": 128
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Inflow_Method": {
         "fields": {
@@ -7768,7 +8038,12 @@
           "m_ReturnType": 160,
           "m_bIsPublic": 152
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Inflow_ObservableVariableListener": {
@@ -7776,22 +8051,53 @@
           "m_bSelfReference": 130,
           "m_nBlackboardReference": 128
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Inflow_Wait": {
         "fields": {
           "m_WakeResume": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Inflow_Yield": {
         "fields": {
           "m_UnyieldResume": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_InlineNodeSkipSelector": {
         "fields": {
@@ -7800,7 +8106,12 @@
           "m_bAnd": 76,
           "m_nFlowNodeID": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_IntervalTimer": {
@@ -7808,7 +8119,24 @@
           "m_Completed": 72,
           "m_OnInterval": 144
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_IntervalTimer__CursorState_t": {
@@ -7819,13 +8147,23 @@
           "m_flWaitInterval": 8,
           "m_flWaitIntervalHigh": 12
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_IsRequirementValid": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_IsRequirementValid__Criteria_t": {
         "fields": {
@@ -7840,7 +8178,12 @@
           "m_Start": 148,
           "m_flSeconds": 144
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_LerpCameraSettings__CursorState_t": {
@@ -7849,15 +8192,33 @@
           "m_OverlaidStart": 12,
           "m_hCamera": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_LimitCount": {
         "fields": {
           "m_nLimitCount": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_LimitCount__Criteria_t": {
         "fields": {
@@ -7870,43 +8231,73 @@
         "fields": {
           "m_nCurrentCount": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_CycleOrdered": {
         "fields": {
           "m_Outputs": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Outflow_CycleOrdered__InstanceState_t": {
         "fields": {
           "m_nNextIndex": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_CycleRandom": {
         "fields": {
           "m_Outputs": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Outflow_CycleShuffled": {
         "fields": {
           "m_Outputs": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Outflow_CycleShuffled__InstanceState_t": {
         "fields": {
           "m_Shuffle": 0,
           "m_nNextShuffle": 32
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_ListenForAnimgraphTag": {
@@ -7916,7 +8307,24 @@
           "m_OnStart": 72,
           "m_TagName": 288
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorSubHeaderText",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_ListenForEntityOutput": {
@@ -7927,14 +8335,40 @@
           "m_strEntityOutput": 216,
           "m_strEntityOutputParam": 224
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorSubHeaderText",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_ListenForEntityOutput__CursorState_t": {
         "fields": {
           "m_entity": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlaySceneBase": {
@@ -7943,7 +8377,12 @@
           "m_OnFinished": 72,
           "m_Triggers": 216
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlaySceneBase__CursorState_t": {
@@ -7952,15 +8391,25 @@
           "m_mainActor": 4,
           "m_sceneInstance": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlaySequence": {
         "fields": {
           "m_ParamSequenceName": 240
         },
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Outflow_PlayVCD": {
         "fields": {
@@ -7969,7 +8418,12 @@
           "m_OutRequirements": 392,
           "m_hChoreoScene": 240
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlayVCD__VCDRequirementInfo_t": {
@@ -7977,21 +8431,48 @@
           "m_Outflow": 8,
           "m_nEventID": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlayVOLine": {
         "fields": {
           "m_OnFinished": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_PlayVOLine__CursorState_t": {
         "fields": {
           "m_sceneInstance": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_ScriptedSequence": {
@@ -8007,14 +8488,24 @@
           "m_szSyncGroup": 72,
           "m_vecAdditionalActors": 144
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Outflow_ScriptedSequence__CursorState_t": {
         "fields": {
           "m_scriptedSequence": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_PickBestOutflowSelector": {
@@ -8022,7 +8513,28 @@
           "m_OutflowList": 80,
           "m_nCheckType": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_PlaySequence": {
@@ -8032,22 +8544,53 @@
           "m_PulseAnimEvents": 80,
           "m_SequenceName": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_PlaySequence__CursorState_t": {
         "fields": {
           "m_hTarget": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_SoundEventStart": {
         "fields": {
           "m_Type": 72
         },
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Step_CallExternalMethod": {
         "fields": {
@@ -8057,42 +8600,72 @@
           "m_nAsyncCallMode": 112,
           "m_nBlackboardIndex": 88
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Step_DebugLog": {
         "fields": {},
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Step_EntFire": {
         "fields": {
           "m_Input": 72
         },
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Step_FollowEntity": {
         "fields": {
           "m_ParamBoneOrAttachName": 72,
           "m_ParamBoneOrAttachNameChild": 80
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Step_PublicOutput": {
         "fields": {
           "m_OutputIndex": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Step_SetAnimGraphParam": {
         "fields": {
           "m_ParamName": 72
         },
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Timeline": {
         "fields": {
@@ -8101,7 +8674,12 @@
           "m_TimelineEvents": 72,
           "m_bWaitForChildOutflows": 96
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Timeline__TimelineEvent_t": {
@@ -8109,7 +8687,12 @@
           "m_EventOutflow": 8,
           "m_flTimeFromPrevious": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Unknown": {
@@ -8123,24 +8706,76 @@
         "fields": {
           "m_Curve": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Value_Gradient": {
         "fields": {
           "m_Gradient": 72
         },
-        "metadata": [],
-        "parent": "pulse_runtime_lib"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CPulseCell_Value_RandomFloat": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_Value_RandomInt": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_WaitForCursorsWithTag": {
@@ -8148,7 +8783,24 @@
           "m_bTagSelfWhenComplete": 152,
           "m_nDesiredKillPriority": 156
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_WaitForCursorsWithTagBase": {
@@ -8156,7 +8808,16 @@
           "m_WaitComplete": 80,
           "m_nCursorsAllowedToWait": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorCanvasItemSpecKV3",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCell_WaitForCursorsWithTagBase__CursorState_t": {
@@ -8171,12 +8832,34 @@
           "m_Condition": 72,
           "m_OnTrue": 192
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPulseEditorHeaderIcon",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseCursorFuncs": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseExecCursor": {
@@ -8186,7 +8869,12 @@
       },
       "CPulseFuncs_GameParticleManager": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseGameBlackboard": {
@@ -8195,7 +8883,7 @@
           "m_strStateBlob": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CPulseGraphDef": {
         "fields": {
@@ -8214,13 +8902,18 @@
           "m_PublicOutputs": 152,
           "m_Vars": 128
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseGraphInstance_GameBlackboard": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": null
       },
       "CPulseGraphInstance_ServerEntity": {
         "fields": {
@@ -8236,12 +8929,26 @@
       },
       "CPulseMathlib": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulsePhysicsConstraintsFuncs": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseServerCursor": {
@@ -8254,17 +8961,40 @@
       },
       "CPulseServerFuncs": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseServerFuncs_Sounds": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyFriendlyName",
+            "type": "Unknown"
+          },
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulseTestScriptLib": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyDescription",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulse_BlackboardReference": {
@@ -8274,7 +9004,12 @@
           "m_hBlackboardResource": 0,
           "m_nNodeID": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulse_CallInfo": {
@@ -8286,7 +9021,12 @@
           "m_nSrcChunk": 76,
           "m_nSrcInstruction": 80
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulse_InvokeBinding": {
@@ -8297,7 +9037,12 @@
           "m_nSrcChunk": 68,
           "m_nSrcInstruction": 72
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CPulse_OutflowConnection": {
@@ -8318,7 +9063,7 @@
       "CPushable": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBreakable"
       },
       "CRR_Response": {
         "fields": {
@@ -8349,7 +9094,7 @@
           "m_zmin": 1304
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CRagdollMagnet": {
         "fields": {
@@ -8359,7 +9104,7 @@
           "m_radius": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CRagdollManager": {
         "fields": {
@@ -8369,7 +9114,7 @@
           "m_iMaxRagdollCount": 1196
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CRagdollProp": {
         "fields": {
@@ -8406,12 +9151,12 @@
           "m_vecNavObstacles": 2712
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseAnimGraph"
       },
       "CRagdollPropAlias_physics_prop_ragdoll": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CRagdollProp"
       },
       "CRagdollPropAttached": {
         "fields": {
@@ -8423,7 +9168,7 @@
           "m_ragdollAttachedObjectIndex": 2740
         },
         "metadata": [],
-        "parent": null
+        "parent": "CRagdollProp"
       },
       "CRandSimTimer": {
         "fields": {
@@ -8431,7 +9176,7 @@
           "m_flMinInterval": 8
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSimpleSimTimer"
       },
       "CRandStopwatch": {
         "fields": {
@@ -8439,20 +9184,30 @@
           "m_flMinInterval": 12
         },
         "metadata": [],
-        "parent": "MNotSaved"
+        "parent": "CStopwatchBase"
       },
       "CRangeFloat": {
         "fields": {
           "m_pValue": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CRangeInt": {
         "fields": {
           "m_pValue": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MPropertyCustomEditor",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CRectLight": {
@@ -8460,7 +9215,7 @@
           "m_bShowLight": 2640
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBarnLight"
       },
       "CRelativeLocation": {
         "fields": {
@@ -8471,7 +9226,7 @@
         },
         "metadata": [
           {
-            "name": "9",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -8486,7 +9241,7 @@
         },
         "metadata": [
           {
-            "name": "\u0006",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -8498,7 +9253,7 @@
         },
         "metadata": [
           {
-            "name": "\u0001",
+            "name": "MPropertyCustomEditor",
             "type": "Unknown"
           }
         ],
@@ -8513,7 +9268,7 @@
           "m_nSplitscreenFlags": 84
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CResponseCriteriaSet": {
         "fields": {
@@ -8549,7 +9304,7 @@
           "m_loadTime": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CModelPointEntity"
       },
       "CRopeKeyframe": {
         "fields": {
@@ -8576,12 +9331,12 @@
           "m_strRopeMaterialModel": 1936
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CRopeKeyframeAlias_move_rope": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CRopeKeyframe"
       },
       "CRopeOverlapHit": {
         "fields": {
@@ -8594,14 +9349,14 @@
       "CRotButton": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseButton"
       },
       "CRotDoor": {
         "fields": {
           "m_bSolidBsp": 2408
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseDoor"
       },
       "CRotatorTarget": {
         "fields": {
@@ -8609,26 +9364,26 @@
           "m_eSpace": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CRuleBrushEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CRuleEntity"
       },
       "CRuleEntity": {
         "fields": {
           "m_iszMaster": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CRulePointEntity": {
         "fields": {
           "m_Score": 1904
         },
         "metadata": [],
-        "parent": null
+        "parent": "CRuleEntity"
       },
       "CSAdditionalMatchStats_t": {
         "fields": {
@@ -8691,7 +9446,7 @@
           "m_nShotsOnTargetTotal": 160
         },
         "metadata": [],
-        "parent": "server"
+        "parent": null
       },
       "CSPerRoundStats_t": {
         "fields": {
@@ -8792,12 +9547,12 @@
           "m_sTargetAttachment": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CSceneEntityAlias_logic_choreographed_scene": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CSceneEntity"
       },
       "CSceneEventInfo": {
         "fields": {
@@ -8828,7 +9583,7 @@
           "m_iszScenes": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CSceneOpportunity": {
         "fields": {
@@ -8861,7 +9616,20 @@
           "m_sPulseFile": 8,
           "m_sSceneFile": 232
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataOverlayType",
+            "type": "Unknown"
+          },
+          {
+            "name": "MVDataAssociatedFile",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CSceneRequest": {
@@ -8884,49 +9652,49 @@
           "m_scriptClassName": 48
         },
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CScriptItem": {
         "fields": {
           "m_MoveTypeOverride": 2528
         },
         "metadata": [],
-        "parent": null
+        "parent": "CItem"
       },
       "CScriptNavBlocker": {
         "fields": {
           "m_vExtent": 1920
         },
         "metadata": [],
-        "parent": null
+        "parent": "CFuncNavBlocker"
       },
       "CScriptTriggerHurt": {
         "fields": {
           "m_vExtent": 2384
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CTriggerHurt"
       },
       "CScriptTriggerMultiple": {
         "fields": {
           "m_vExtent": 2272
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CTriggerMultiple"
       },
       "CScriptTriggerOnce": {
         "fields": {
           "m_vExtent": 2272
         },
         "metadata": [],
-        "parent": null
+        "parent": "CTriggerOnce"
       },
       "CScriptTriggerPush": {
         "fields": {
           "m_vExtent": 2296
         },
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CTriggerPush"
       },
       "CScriptUniformRandomStream": {
         "fields": {
@@ -9017,27 +9785,27 @@
           "m_startTime": 1332
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CServerOnlyEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CServerOnlyModelEntity": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CServerOnlyPointEntity": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CServerOnlyEntity"
       },
       "CServerRagdollTrigger": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CShatterGlassShard": {
         "fields": {
@@ -9072,7 +9840,7 @@
         },
         "metadata": [
           {
-            "name": "",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9085,24 +9853,24 @@
           "m_hParentShard": 3092
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysicsProp"
       },
       "CShower": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CModelPointEntity"
       },
       "CSimTimer": {
         "fields": {
           "m_flInterval": 8
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSimpleSimTimer"
       },
       "CSimpleMarkupVolumeTagged": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CMarkupVolumeTagged"
       },
       "CSimpleSimTimer": {
         "fields": {
@@ -9115,7 +9883,7 @@
       "CSimpleStopwatch": {
         "fields": {},
         "metadata": [],
-        "parent": "@f\u000ed�"
+        "parent": null
       },
       "CSingleplayRules": {
         "fields": {
@@ -9143,7 +9911,7 @@
           "m_nHitboxSet": 904
         },
         "metadata": [],
-        "parent": null
+        "parent": "CGameSceneNode"
       },
       "CSkillDamage": {
         "fields": {
@@ -9153,7 +9921,7 @@
         },
         "metadata": [
           {
-            "name": "\n",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9165,7 +9933,7 @@
         },
         "metadata": [
           {
-            "name": "\u0001",
+            "name": "MPropertyCustomEditor",
             "type": "Unknown"
           }
         ],
@@ -9177,7 +9945,7 @@
         },
         "metadata": [
           {
-            "name": "\u0005",
+            "name": "MPropertyCustomEditor",
             "type": "Unknown"
           }
         ],
@@ -9191,7 +9959,7 @@
           "m_skyboxSlotToken": 1336
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseEntity"
       },
       "CSkyboxReference": {
         "fields": {
@@ -9199,12 +9967,12 @@
           "m_worldGroupId": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSmokeGrenade": {
         "fields": {},
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseCSGrenade"
       },
       "CSmokeGrenadeProjectile": {
         "fields": {
@@ -9222,7 +9990,7 @@
           "m_vSmokeDetonationPos": 2672
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseCSGrenadeProjectile"
       },
       "CSmoothFunc": {
         "fields": {
@@ -9242,7 +10010,7 @@
           "m_vPos": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSoundAreaEntityOrientedBox": {
         "fields": {
@@ -9250,14 +10018,14 @@
           "m_vMin": 1224
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundAreaEntityBase"
       },
       "CSoundAreaEntitySphere": {
         "fields": {
           "m_flRadius": 1224
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundAreaEntityBase"
       },
       "CSoundEnvelope": {
         "fields": {
@@ -9268,7 +10036,7 @@
         },
         "metadata": [
           {
-            "name": "\u0001",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9280,7 +10048,7 @@
           "m_vMins": 1384
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundEventEntity"
       },
       "CSoundEventConeEntity": {
         "fields": {
@@ -9291,7 +10059,7 @@
           "m_iszParameterName": 1400
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CSoundEventEntity"
       },
       "CSoundEventEntity": {
         "fields": {
@@ -9311,12 +10079,12 @@
           "m_onSoundFinished": 1272
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSoundEventEntityAlias_snd_event_point": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CSoundEventEntity"
       },
       "CSoundEventOBBEntity": {
         "fields": {
@@ -9324,7 +10092,7 @@
           "m_vMins": 1384
         },
         "metadata": [],
-        "parent": "entity2"
+        "parent": "CSoundEventEntity"
       },
       "CSoundEventParameter": {
         "fields": {
@@ -9332,7 +10100,7 @@
           "m_iszParamName": 1216
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSoundEventPathCornerEntity": {
         "fields": {
@@ -9345,14 +10113,14 @@
           "m_vecCornerPairsNetworked": 1448
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundEventEntity"
       },
       "CSoundEventSphereEntity": {
         "fields": {
           "m_flRadius": 1384
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundEventEntity"
       },
       "CSoundOpvarSetAABBEntity": {
         "fields": {
@@ -9367,7 +10135,7 @@
           "m_vOuterMins": 1676
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundOpvarSetPointEntity"
       },
       "CSoundOpvarSetAutoRoomEntity": {
         "fields": {
@@ -9378,7 +10146,7 @@
           "m_traceResults": 1600
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundOpvarSetPointEntity"
       },
       "CSoundOpvarSetEntity": {
         "fields": {
@@ -9392,12 +10160,12 @@
           "m_nOpvarType": 1240
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSoundOpvarSetOBBEntity": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CSoundOpvarSetAABBEntity"
       },
       "CSoundOpvarSetOBBWindEntity": {
         "fields": {
@@ -9411,7 +10179,7 @@
           "m_vMins": 1360
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundOpvarSetPointBase"
       },
       "CSoundOpvarSetPathCornerEntity": {
         "fields": {
@@ -9421,7 +10189,7 @@
           "m_iszPathCornerEntityName": 1640
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundOpvarSetPointEntity"
       },
       "CSoundOpvarSetPointBase": {
         "fields": {
@@ -9438,7 +10206,7 @@
           "m_vLastPosition": 1312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CSoundOpvarSetPointEntity": {
         "fields": {
@@ -9468,7 +10236,7 @@
           "m_vPathingSourcePos": 1556
         },
         "metadata": [],
-        "parent": null
+        "parent": "CSoundOpvarSetPointBase"
       },
       "CSoundPatch": {
         "fields": {
@@ -9488,7 +10256,7 @@
         },
         "metadata": [
           {
-            "name": "\n",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9499,7 +10267,7 @@
           "m_iszStackName": 1192
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CSplineConstraint": {
         "fields": {
@@ -9520,7 +10288,7 @@
           "m_vTangentSpaceAnchorAtTransitionStart": 1448
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPhysConstraint"
       },
       "CSpotlightEnd": {
         "fields": {
@@ -9530,7 +10298,7 @@
           "m_vSpotlightOrg": 1916
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CSprite": {
         "fields": {
@@ -9559,31 +10327,31 @@
           "m_nStartBrightness": 1984
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CSpriteAlias_env_glow": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CSprite"
       },
       "CSpriteOriented": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CSprite"
       },
       "CStopwatch": {
         "fields": {
           "m_flInterval": 12
         },
         "metadata": [],
-        "parent": null
+        "parent": "CStopwatchBase"
       },
       "CStopwatchBase": {
         "fields": {
           "m_fIsRunning": 8
         },
         "metadata": [],
-        "parent": "CONTINUE_TO_APPLY_DAMAGE"
+        "parent": "CSimpleSimTimer"
       },
       "CTakeDamageInfo": {
         "fields": {
@@ -9612,7 +10380,7 @@
         },
         "metadata": [
           {
-            "name": "\u0003",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9637,7 +10405,7 @@
         },
         "metadata": [
           {
-            "name": "\n",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -9661,7 +10429,7 @@
           "m_newTargetName": 1208
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CTankTrainAI": {
         "fields": {
@@ -9674,7 +10442,7 @@
           "m_targetEntityName": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CPointEntity"
       },
       "CTeam": {
         "fields": {
@@ -9684,12 +10452,12 @@
           "m_szTeamname": 1244
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseEntity"
       },
       "CTeamplayRules": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": null
       },
       "CTestEffect": {
         "fields": {
@@ -9700,7 +10468,7 @@
           "m_pBeam": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CTestPulseIO": {
         "fields": {
@@ -9729,7 +10497,7 @@
           "m_bAllowEmptyInputs": 1416
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CTestPulseIOAPI": {
         "fields": {},
@@ -9741,7 +10509,12 @@
           "m_ComponentData": 8,
           "m_OnComponentTestFunc": 16
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CTestPulseIOComponent_API": {
@@ -9751,8 +10524,13 @@
       },
       "CTestPulseIOComponent_Derived": {
         "fields": {},
-        "metadata": [],
-        "parent": "server"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "CTestPulseIOComponent_DerivedAPI": {
         "fields": {},
@@ -9764,7 +10542,12 @@
           "handleA": 0,
           "valueB": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CTestPulseIO__EntityNameStringArgs_t": {
@@ -9772,7 +10555,12 @@
           "nameA": 0,
           "strValueB": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CTestPulseIO__FloatStringArgs_t": {
@@ -9780,7 +10568,12 @@
           "flOutFloat": 0,
           "strOutString": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CTestPulseIO__ThreeStringArgs_t": {
@@ -9789,7 +10582,12 @@
           "strArg2": 8,
           "strArg3": 16
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "CTextureBasedAnimatable": {
@@ -9804,7 +10602,7 @@
           "m_vAnimationBoundsMin": 1920
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CTimeline": {
         "fields": {
@@ -9836,7 +10634,7 @@
           "m_iUseRandomTime": 1280
         },
         "metadata": [],
-        "parent": null
+        "parent": "CLogicalEntity"
       },
       "CTonemapController2": {
         "fields": {
@@ -9846,18 +10644,13 @@
           "m_flExposureAdaptationSpeedUp": 1200,
           "m_flTonemapEVSmoothingRange": 1208
         },
-        "metadata": [
-          {
-            "name": "",
-            "type": "Unknown"
-          }
-        ],
-        "parent": "xL���"
+        "metadata": [],
+        "parent": "CBaseEntity"
       },
       "CTonemapController2Alias_env_tonemap_controller2": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CTonemapController2"
       },
       "CTonemapTrigger": {
         "fields": {
@@ -9865,12 +10658,12 @@
           "m_tonemapControllerName": 2248
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseTrigger"
       },
       "CTouchExpansionComponent": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CEntityComponent"
       },
       "CTriggerActiveWeaponDetect": {
         "fields": {
@@ -9878,12 +10671,12 @@
           "m_iszWeaponClassName": 2272
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerBombReset": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerBrush": {
         "fields": {
@@ -9894,7 +10687,7 @@
           "m_iInputFilter": 1968
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CTriggerBuoyancy": {
         "fields": {
@@ -9902,12 +10695,12 @@
           "m_flFluidDensity": 2528
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerCallback": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerDetectBulletFire": {
         "fields": {
@@ -9915,14 +10708,14 @@
           "m_bPlayerFireOnly": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerDetectExplosion": {
         "fields": {
           "m_OnDetectedExplosion": 2288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerFan": {
         "fields": {
@@ -9953,7 +10746,7 @@
           "m_vNoiseDirectionTarget": 2380
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerGameEvent": {
         "fields": {
@@ -9962,17 +10755,17 @@
           "m_strTriggerID": 2264
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerGravity": {
         "fields": {},
         "metadata": [],
-        "parent": "\u0001"
+        "parent": "CBaseTrigger"
       },
       "CTriggerHostageReset": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerHurt": {
         "fields": {
@@ -9992,7 +10785,7 @@
           "m_vDamageForce": 2280
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerImpact": {
         "fields": {
@@ -10002,7 +10795,7 @@
           "m_pOutputForce": 2288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CTriggerMultiple"
       },
       "CTriggerLerpObject": {
         "fields": {
@@ -10024,7 +10817,7 @@
           "m_vecLerpingObjects": 2288
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerLook": {
         "fields": {
@@ -10045,19 +10838,19 @@
           "m_hLookTarget": 2272
         },
         "metadata": [],
-        "parent": null
+        "parent": "CTriggerOnce"
       },
       "CTriggerMultiple": {
         "fields": {
           "m_OnTrigger": 2248
         },
         "metadata": [],
-        "parent": "p\u0011\u0012d�"
+        "parent": "CBaseTrigger"
       },
       "CTriggerOnce": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CTriggerMultiple"
       },
       "CTriggerPhysics": {
         "fields": {
@@ -10077,7 +10870,7 @@
           "m_vecLinearForcePointAtWorld": 2312
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerProximity": {
         "fields": {
@@ -10088,7 +10881,7 @@
           "m_nTouchers": 2268
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerPush": {
         "fields": {
@@ -10101,14 +10894,14 @@
           "m_vecPushDirEntitySpace": 2260
         },
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseTrigger"
       },
       "CTriggerRemove": {
         "fields": {
           "m_OnRemove": 2248
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CBaseTrigger"
       },
       "CTriggerSave": {
         "fields": {
@@ -10117,7 +10910,7 @@
           "m_minHitPoints": 2256
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerSndSosOpvar": {
         "fields": {
@@ -10137,7 +10930,7 @@
           "m_stackNameChar": 2577
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerSoundscape": {
         "fields": {
@@ -10146,7 +10939,7 @@
           "m_spectators": 2264
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerTeleport": {
         "fields": {
@@ -10156,12 +10949,12 @@
           "m_iLandmark": 2248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerToggleSave": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseTrigger"
       },
       "CTriggerVolume": {
         "fields": {
@@ -10169,7 +10962,7 @@
           "m_iFilterName": 1896
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CVectorExponentialMovingAverage": {
         "fields": {},
@@ -10199,22 +10992,22 @@
           "m_resetVoteTimer": 1280
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseEntity"
       },
       "CWaterBullet": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CBaseAnimGraph"
       },
       "CWeaponAWP": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponAug": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponBaseItem": {
         "fields": {
@@ -10222,139 +11015,139 @@
           "m_bSequenceInProgress": 4144
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBase"
       },
       "CWeaponBizon": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponCZ75a": {
         "fields": {
           "m_bMagazineRemoved": 4176
         },
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponElite": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponFamas": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponFiveSeven": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponG3SG1": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponGalilAR": {
         "fields": {},
         "metadata": [],
-        "parent": "server"
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponGlock": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponHKP2000": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponM249": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponM4A1": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponM4A1Silencer": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponMAC10": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponMP5SD": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponMP7": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponMP9": {
         "fields": {},
         "metadata": [],
-        "parent": "Primary_Mode"
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponMag7": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponNOVA": {
         "fields": {},
         "metadata": [],
-        "parent": "xL���"
+        "parent": "CCSWeaponBaseShotgun"
       },
       "CWeaponNegev": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponP250": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponP90": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponRevolver": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponSCAR20": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponSG556": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponSSG08": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponSawedoff": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseShotgun"
       },
       "CWeaponTaser": {
         "fields": {
@@ -10362,32 +11155,32 @@
           "m_nLastAttackTick": 4180
         },
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponTec9": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponUMP45": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponUSPSilencer": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseGun"
       },
       "CWeaponXM1014": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CCSWeaponBaseShotgun"
       },
       "CWorld": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "CBaseModelEntity"
       },
       "CWorldCompositionChunkReferenceElement_t": {
         "fields": {
@@ -10430,7 +11223,7 @@
         },
         "metadata": [
           {
-            "name": "\u0001",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -10440,12 +11233,22 @@
         "fields": {
           "vecBones": 16
         },
-        "metadata": [],
-        "parent": "xL���"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "DebugSnapshotBaseStructuredData_t": {
         "fields": {},
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "DecalGroupOption_t": {
@@ -10457,7 +11260,12 @@
           "m_hMaterial": 0,
           "m_sSequenceName": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "DestructiblePartDamageRequestAPI": {
@@ -10479,7 +11287,7 @@
         },
         "metadata": [
           {
-            "name": "\u0005",
+            "name": "MGetKV3ClassDefaults",
             "type": "Unknown"
           }
         ],
@@ -10555,7 +11363,7 @@
           "m_iDamageType": 1248
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "FilterHealth": {
         "fields": {
@@ -10564,7 +11372,7 @@
           "m_iHealthMin": 1252
         },
         "metadata": [],
-        "parent": null
+        "parent": "CBaseFilter"
       },
       "FuncMoverMovementSummary_t": {
         "fields": {
@@ -10587,7 +11395,12 @@
           "m_sLandmark": 16,
           "m_sRequiredAddons": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "GameAmmoTypeInfo_t": {
@@ -10595,7 +11408,12 @@
           "m_nBuySize": 56,
           "m_nCost": 60
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "HullFlags_t": {
@@ -10673,7 +11491,12 @@
         "fields": {
           "m_nHullIdx": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "OutflowWithRequirements_t": {
@@ -10683,7 +11506,12 @@
           "m_RequirementNodeIDs": 80,
           "m_nCursorStateBlockIndex": 104
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "ParticleIndex_t": {
@@ -10719,7 +11547,12 @@
           "nSaved": 0,
           "pWorldObject": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PhysObjectHeader_t": {
@@ -10733,7 +11566,12 @@
           "sphere": 56,
           "type": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PhysicsRagdollPose_t": {
@@ -10752,21 +11590,36 @@
           "m_flNearBlurryDistance": 0,
           "m_flNearCrispDistance": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PrecipitationFilter_t": {
         "fields": {
           "m_flMaxRadius": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PulseNodeDynamicOutflows_t": {
         "fields": {
           "m_Outflows": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PulseNodeDynamicOutflows_t__DynamicOutflow_t": {
@@ -10774,7 +11627,12 @@
           "m_Connection": 8,
           "m_OutflowID": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PulseObservableBoolExpression_t": {
@@ -10783,7 +11641,12 @@
           "m_DependentObservableVars": 72,
           "m_EvaluateConnection": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PulseScriptedSequenceData_t": {
@@ -10801,14 +11664,24 @@
           "m_szPreIdleSequence": 8,
           "m_szSequence": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PulseSelectorOutflowList_t": {
         "fields": {
           "m_Outflows": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "QuestProgress": {
@@ -10833,7 +11706,7 @@
           "entity": 8
         },
         "metadata": [],
-        "parent": null
+        "parent": "Relationship_t"
       },
       "Relationship_t": {
         "fields": {
@@ -10901,7 +11774,12 @@
           "m_vecWorldOffset": 32,
           "m_version": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SPAWNGROUP_HEADER": {
@@ -10912,7 +11790,12 @@
           "m_sGroupName": 0,
           "m_vecWorldOffset": 16
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SceneEventId_t": {
@@ -10960,7 +11843,12 @@
           "m_actorName": 0,
           "m_targetName": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SellbackPurchaseEntry_t": {
@@ -11023,7 +11911,12 @@
           "m_time": 8,
           "m_value": 20
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "SoundOpvarTraceResult_t": {
@@ -11053,7 +11946,7 @@
           "m_nType": 1200
         },
         "metadata": [],
-        "parent": null
+        "parent": "CServerOnlyPointEntity"
       },
       "SummaryTakeDamageInfo_t": {
         "fields": {
@@ -11105,7 +11998,12 @@
           "m_flFractionOfWheelSubmerged": 0,
           "m_flWheelDrag": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "WaterWheelFrictionScale_t": {
@@ -11113,7 +12011,12 @@
           "m_flFractionOfWheelSubmerged": 0,
           "m_flFrictionScale": 4
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "WeaponPurchaseCount_t": {
@@ -11183,7 +12086,7 @@
       "dynpitchvol_t": {
         "fields": {},
         "metadata": [],
-        "parent": null
+        "parent": "dynpitchvol_base_t"
       },
       "entitytable_t": {
         "fields": {
@@ -11198,7 +12101,12 @@
           "m_pPrecacheEntityKeys": 72,
           "saveentityindex": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "fogparams_t": {
@@ -11294,7 +12202,12 @@
           "m_vecLandmarkAngles": 32,
           "m_vecLandmarkOrigin": 20
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "locksound_t": {
@@ -11319,7 +12232,12 @@
           "pszCurrentValue": 128,
           "pszOrgValue": 256
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "physics_save_sphere_t": {

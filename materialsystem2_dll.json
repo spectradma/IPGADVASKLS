@@ -5,49 +5,84 @@
         "fields": {
           "m_value": 8
         },
-        "metadata": [],
-        "parent": "xL���"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "MaterialParamFloat_t": {
         "fields": {
           "m_flValue": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "MaterialParamInt_t": {
         "fields": {
           "m_nValue": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "MaterialParamString_t": {
         "fields": {
           "m_value": 8
         },
-        "metadata": [],
-        "parent": "materialsystem2"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "MaterialParamTexture_t": {
         "fields": {
           "m_pValue": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "MaterialParamVector_t": {
         "fields": {
           "m_value": 8
         },
-        "metadata": [],
-        "parent": "materialsystem2"
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
       },
       "MaterialParam_t": {
         "fields": {
           "m_name": 0
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "MaterialResourceData_t": {
@@ -67,7 +102,12 @@
           "m_vectorAttributes": 208,
           "m_vectorParams": 64
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingBloomParameters_t": {
@@ -89,7 +129,12 @@
           "m_flSkyboxBloomStrength": 24,
           "m_vBlurTint": 76
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingFogScatteringParameters_t": {
@@ -100,7 +145,12 @@
           "m_fScale": 4,
           "m_fVolumetricScale": 12
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingLocalContrastParameters_t": {
@@ -111,7 +161,12 @@
           "m_flLocalContrastVignetteEnd": 12,
           "m_flLocalContrastVignetteStart": 8
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingResource_t": {
@@ -130,7 +185,12 @@
           "m_toneMapParams": 4,
           "m_vignetteParams": 208
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingTonemapParameters_t": {
@@ -151,7 +211,12 @@
           "m_flToeStrength": 16,
           "m_flWhitePoint": 28
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       },
       "PostProcessingVignetteParameters_t": {
@@ -163,7 +228,12 @@
           "m_vCenter": 4,
           "m_vColorTint": 24
         },
-        "metadata": [],
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
         "parent": null
       }
     },
