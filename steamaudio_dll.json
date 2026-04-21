@@ -15,6 +15,7 @@
       },
       "CSteamAudioBakedDimensionsData": {
         "fields": {
+          "m_movables": 128,
           "m_probes": 24,
           "m_settings": 0,
           "m_vecInOut": 32,
@@ -62,6 +63,7 @@
       },
       "CSteamAudioBakedPathingData": {
         "fields": {
+          "m_movables": 16,
           "m_nBands": 0,
           "m_probes": 8
         },
@@ -75,23 +77,18 @@
       },
       "CSteamAudioBakedReverbData": {
         "fields": {
-          "m_clusteredProbes": 136,
-          "m_compressedClusteredData": 264,
-          "m_compressedData": 168,
-          "m_grid": 16,
+          "m_clusteredProbes": 160,
+          "m_compressedClusteredData": 288,
+          "m_compressedData": 192,
+          "m_grid": 32,
+          "m_movables": 384,
           "m_nBands": 0,
-          "m_probes": 8,
-          "m_reverbClusteringSettings": 120,
-          "m_reverbCompressionSettings": 132,
-          "m_reverbSettings": 104,
-          "m_vecClusterForProbe": 144,
-          "m_vecMovableReverbAABBs": 408,
-          "m_vecMovableReverbInitialTransforms": 384,
-          "m_vecMovableReverbKeyTokens": 456,
-          "m_vecMovableReverbKeys": 432,
-          "m_vecMovableReverbOBBs": 504,
-          "m_vecMovableReverbTransforms": 480,
-          "m_vecMovableReverbs": 360
+          "m_probes": 24,
+          "m_reverbClusteringSettings": 140,
+          "m_reverbCompressionSettings": 152,
+          "m_reverbSettings": 120,
+          "m_scene": 8,
+          "m_vecClusterForProbe": 168
         },
         "metadata": [
           {
@@ -165,6 +162,19 @@
         ],
         "parent": null
       },
+      "CSteamAudioSceneData": {
+        "fields": {
+          "m_pScene": 0,
+          "m_pStaticMesh": 8
+        },
+        "metadata": [
+          {
+            "name": "MGetKV3ClassDefaults",
+            "type": "Unknown"
+          }
+        ],
+        "parent": null
+      },
       "SteamAudioCustomDataDimensionsSettings_t": {
         "fields": {
           "m_flInsideThreshold": 16,
@@ -227,7 +237,8 @@
       },
       "SteamAudioReverbCompressionSettings_t": {
         "fields": {
-          "m_bEnableCompression": 0
+          "m_bEnableCompression": 0,
+          "m_flQuality": 4
         },
         "metadata": [
           {
@@ -239,6 +250,7 @@
       },
       "SteamAudioReverbSettings_t": {
         "fields": {
+          "m_bExportScene": 16,
           "m_flIRDuration": 8,
           "m_nAmbisonicsOrder": 12,
           "m_nNumBounces": 4,
