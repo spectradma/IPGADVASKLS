@@ -6,24 +6,14 @@
           "m_ViewName": 8,
           "m_nViewId": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_EndFrame": {
         "fields": {
           "m_Views": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_LayerBase": {
@@ -34,32 +24,17 @@
           "m_nLayerId": 24,
           "m_viewId": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_PostLayer": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
-        "parent": null
+        "metadata": [],
+        "parent": "scenesystem"
       },
       "CSSDSMsg_PreLayer": {
         "fields": {},
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewRender": {
@@ -67,12 +42,7 @@
           "m_ViewName": 16,
           "m_viewId": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewTarget": {
@@ -88,12 +58,7 @@
           "m_nRequestedWidth": 24,
           "m_nWidth": 16
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSSDSMsg_ViewTargetList": {
@@ -102,12 +67,7 @@
           "m_ViewName": 16,
           "m_viewId": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SceneViewId_t": {
@@ -115,12 +75,7 @@
           "m_nFrameCount": 8,
           "m_nViewId": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       }
     },

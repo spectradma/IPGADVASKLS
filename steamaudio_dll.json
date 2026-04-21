@@ -5,12 +5,7 @@
         "fields": {
           "m_field": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioBakedDimensionsData": {
@@ -23,12 +18,7 @@
           "m_vecOutsideField": 80,
           "m_vecSize": 56
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioBakedMaterialsData": {
@@ -37,12 +27,7 @@
           "m_vecMaterialTokens": 8,
           "m_vecMaterialWeights": 32
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioBakedOcclusionData": {
@@ -53,12 +38,7 @@
           "m_vecPathingRatio": 24,
           "m_vecReflectionRatio": 72
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioBakedPathingData": {
@@ -67,12 +47,7 @@
           "m_nBands": 0,
           "m_probes": 8
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioBakedReverbData": {
@@ -90,12 +65,7 @@
           "m_scene": 8,
           "m_vecClusterForProbe": 168
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioCompressedReverb": {
@@ -109,24 +79,14 @@
           "m_vecDictionary": 40,
           "m_vecNumSingularValues": 16
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioProbeData": {
         "fields": {
           "m_pProbeBatch": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioProbeGrid": {
@@ -139,12 +99,7 @@
           "m_vecLineSegments": 40,
           "m_vecProbes": 64
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioProbeLineSegment": {
@@ -154,12 +109,7 @@
           "m_vecIntervals": 24,
           "m_vecProbeIndices": 48
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "CSteamAudioSceneData": {
@@ -167,12 +117,7 @@
           "m_pScene": 0,
           "m_pStaticMesh": 8
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioCustomDataDimensionsSettings_t": {
@@ -183,12 +128,7 @@
           "m_nAmbisonicsOrderInsideSizeField": 4,
           "m_nAmbisonicsOrderOutsideField": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioCustomDataOcclusionSettings_t": {
@@ -198,12 +138,7 @@
           "m_nReflectionBounces": 8,
           "m_nReflectionRays": 4
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioPathSettings_t": {
@@ -213,12 +148,7 @@
           "m_flProbeVisThreshold": 8,
           "m_nNumVisSamples": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioReverbClusteringSettings_t": {
@@ -227,12 +157,7 @@
           "m_flDepthThreshold": 8,
           "m_nCubeMapResolution": 4
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioReverbCompressionSettings_t": {
@@ -240,12 +165,7 @@
           "m_bEnableCompression": 0,
           "m_flQuality": 4
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       },
       "SteamAudioReverbSettings_t": {
@@ -256,12 +176,7 @@
           "m_nNumBounces": 4,
           "m_nNumRays": 0
         },
-        "metadata": [
-          {
-            "name": "MGetKV3ClassDefaults",
-            "type": "Unknown"
-          }
-        ],
+        "metadata": [],
         "parent": null
       }
     },
